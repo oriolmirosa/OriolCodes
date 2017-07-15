@@ -2,7 +2,6 @@
 title: "Hello World: The remark Kitchen Sink"
 date: "2016-04-15"
 draft: false
-author: Jay Gatsby
 tags:
   - remark
   - Kitchen Sink
@@ -11,14 +10,14 @@ tags:
 ![](joshua-earle-234740.jpg)
 *Photo by [Joshua Earle](https://unsplash.com/@joshuaearle) via [Unsplash](https://unsplash.com/@joshuaearle?photo=-87JyMb9ZfU)*
 
-**_Note how all headlines below show an anchor link when you hover them?_**  
+**_Note how all headlines below show an anchor link when you hover them?_**
 That's [gatsby-remark-autolink-headers][5] hooking up all `MarkdownRemark`
 headers with anchor links for us.
 
 ## Markdown in Gatsby
 
 Markdown parsing in Gatsby is done with [gatsby-transformer-remark][1],
-which uses the excellent [remark][2] under the hood.  
+which uses the excellent [remark][2] under the hood.
 Alongside remark we also use [gatsby-remark-smartypants][6], which provides
 smart punctuation through [retext-smartypants][7].
 
@@ -29,18 +28,18 @@ The examples on this page cover the basic Markdown syntax and are adapted from
 
 This is intended as a quick reference and showcase. For more complete info, see [John Gruber's original spec](http://daringfireball.net/projects/markdown/) and the [Github-flavored Markdown info page](http://github.github.com/github-flavored-markdown/).
 
-##### Table of Contents  
-[Headers](#headers)  
-[Emphasis](#emphasis)  
-[Lists](#lists)  
-[Links](#links)  
-[Images](#images)  
-[Tables](#tables)  
-[Footnotes](#footnotes)  
-[Blockquotes](#blockquotes)  
-[Inline HTML](#html)  
-[Horizontal Rule](#hr)  
-[Line Breaks](#lines)  
+##### Table of Contents
+[Headers](#headers)
+[Emphasis](#emphasis)
+[Lists](#lists)
+[Links](#links)
+[Images](#images)
+[Tables](#tables)
+[Footnotes](#footnotes)
+[Blockquotes](#blockquotes)
+[Inline HTML](#html)
+[Horizontal Rule](#hr)
+[Line Breaks](#lines)
 
 <a name="headers"></a>
 
@@ -134,8 +133,8 @@ In this example, leading and trailing spaces are shown with with dots: ⋅
 
   You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
 
-  To have a line break without a paragraph, you will need to use two trailing spaces.  
-  Note that this line is separate, but within the same paragraph.  
+  To have a line break without a paragraph, you will need to use two trailing spaces.
+  Note that this line is separate, but within the same paragraph.
 
 * Unordered list can use asterisks
 - Or minuses
@@ -375,7 +374,7 @@ Here's a line for us to start with.
 
 This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
 
-This line is also begins a separate paragraph, but...  
+This line is also begins a separate paragraph, but...
 This line is only separated by a single newline, so it's a separate line in the *same paragraph*.
 
 

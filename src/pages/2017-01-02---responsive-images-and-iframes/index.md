@@ -2,7 +2,6 @@
 title: "Responsive Images and iFrames"
 date: "2017-01-02"
 draft: false
-author: Jay Gatsby
 tags:
   - remark
   - Images

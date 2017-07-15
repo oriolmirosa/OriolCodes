@@ -40,26 +40,6 @@ class BlogPostRoute extends React.Component {
         </header>
         <div dangerouslySetInnerHTML={{ __html: post.html }} className="post" />
         <hr/>
-        <p>
-          <img
-            alt={`Avatar of ${post.frontmatter.author.id}`}
-            src={
-              post.frontmatter.author.avatar.children[0].responsiveResolution
-                .src
-            }
-            srcSet={
-              post.frontmatter.author.avatar.children[0].responsiveResolution
-                .srcSet
-            }
-          />
-          <span>
-            <small>
-              {post.frontmatter.author.id}
-            </small>
-            {` `}
-            {post.frontmatter.author.bio}
-          </span>
-        </p>
       </div>
     )
   }
@@ -79,25 +59,6 @@ export const pageQuery = graphql`
         title
         tags
         date(formatString: "MMMM DD, YYYY")
-        author {
-          id
-          bio
-          avatar {
-            children {
-              ... on ImageSharp {
-                responsiveResolution(
-                  width: 50
-                  height: 50
-                  quality: 75
-                  grayscale: true
-                ) {
-                  src
-                  srcSet
-                }
-              }
-            }
-          }
-        }
       }
     }
   }

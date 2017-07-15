@@ -2,7 +2,6 @@
 title: "Code and Syntax Highlighting with PrismJS"
 date: "2017-04-04"
 draft: false
-author: Daisy Buchanan
 tags:
   - remark
   - Code Highlighting

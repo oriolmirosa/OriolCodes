@@ -4,9 +4,6 @@ module.exports = {
     subtitle: `Data Science and Coding`,
     author: `Oriol Mirosa`
   },
-  mapping: {
-    "MarkdownRemark.frontmatter.author": `AuthorYaml`,
-  },
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
@@ -38,7 +35,6 @@ module.exports = {
         ],
       },
     },
-    `gatsby-transformer-yaml`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-catch-links`,
   ],
