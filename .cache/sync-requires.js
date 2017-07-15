@@ -13,17 +13,17 @@ exports.components = {
 exports.json = {
   "dev-404-page.json": require("/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/.cache/json/dev-404-page.json"),
   "hello-world-kitchen-sink.json": require("/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/.cache/json/hello-world-kitchen-sink.json"),
-  "responsive-images-and-iframes.json": require("/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/.cache/json/responsive-images-and-iframes.json"),
   "copy-linked-files-intercepting-local-links.json": require("/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/.cache/json/copy-linked-files-intercepting-local-links.json"),
   "code-and-syntax-highlighting.json": require("/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/.cache/json/code-and-syntax-highlighting.json"),
+  "responsive-images-and-iframes.json": require("/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/.cache/json/responsive-images-and-iframes.json"),
   "tags-remark.json": require("/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/.cache/json/tags-remark.json"),
   "tags-kitchen-sink.json": require("/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/.cache/json/tags-kitchen-sink.json"),
   "tags-images.json": require("/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/.cache/json/tags-images.json"),
-  "tags-videos.json": require("/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/.cache/json/tags-videos.json"),
-  "tags-i-frames.json": require("/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/.cache/json/tags-i-frames.json"),
   "tags-linked-files.json": require("/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/.cache/json/tags-linked-files.json"),
   "tags-local-links.json": require("/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/.cache/json/tags-local-links.json"),
   "tags-code-highlighting.json": require("/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/.cache/json/tags-code-highlighting.json"),
+  "tags-videos.json": require("/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/.cache/json/tags-videos.json"),
+  "tags-i-frames.json": require("/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/.cache/json/tags-i-frames.json"),
   "index.json": require("/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/.cache/json/index.json"),
   "tags.json": require("/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/.cache/json/tags.json")
 }

@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `gatsby-example-using-remark`,
-    author: `@gatsbyjs`,
-    description: `Blazing-fast React.js static site generator`,
+    title: `Oriol.Codes`,
+    subtitle: `Data Science and Coding`,
+    author: `Oriol Mirosa`
   },
   mapping: {
     "MarkdownRemark.frontmatter.author": `AuthorYaml`,
@@ -23,7 +23,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 740,
+              maxWidth: 590,
             },
           },
           `gatsby-remark-copy-linked-files`,

@@ -2,9 +2,9 @@
     "data": {
         "site": {
             "siteMetadata": {
-                "title": "gatsby-example-using-remark",
-                "author": "@gatsbyjs",
-                "description": "Blazing-fast React.js static site generator"
+                "title": "Oriol.Codes",
+                "subtitle": "Data Science and Coding",
+                "author": "Oriol Mirosa"
             }
         },
         "allMarkdownRemark": {

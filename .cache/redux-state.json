@@ -290,18 +290,7 @@
             "version": "1.2.0",
             "pluginOptions": {
               "plugins": [],
-              "maxWidth": 740,
-              "wrapperStyle": "",
-              "backgroundColor": "white",
-              "linkImagesToOriginal": true,
-              "quality": 50,
-              "jpegProgressive": true,
-              "pngCompressionLevel": 9,
-              "grayscale": false,
-              "duotone": false,
-              "pathPrefix": "",
-              "toFormat": "",
-              "sizes": "(max-width: 740px) 100vw, 740px"
+              "maxWidth": 590
             },
             "pluginFilepath": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/node_modules/gatsby-remark-images"
           },
@@ -420,7 +409,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "878611293133cd08ecdc3af11024e9f0",
+        "contentDigest": "f98e4a40d49409e7e7d559f869a0ada5",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -431,18 +420,7 @@
       "version": "1.2.0",
       "pluginOptions": {
         "plugins": [],
-        "maxWidth": 740,
-        "wrapperStyle": "",
-        "backgroundColor": "white",
-        "linkImagesToOriginal": true,
-        "quality": 50,
-        "jpegProgressive": true,
-        "pngCompressionLevel": 9,
-        "grayscale": false,
-        "duotone": false,
-        "pathPrefix": "",
-        "toFormat": "",
-        "sizes": "(max-width: 740px) 100vw, 740px"
+        "maxWidth": 590
       },
       "pluginFilepath": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/node_modules/gatsby-remark-images",
       "packageJson": {
@@ -499,7 +477,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "fb70962940d4fd9b1679b7f45169eecb",
+        "contentDigest": "d9b7352530641fcb693ea8186abb6f45",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -915,7 +893,7 @@
     "Plugin default-site-plugin": {
       "resolve": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes",
       "name": "default-site-plugin",
-      "version": "c351a1b24af3ffaa5e7b6cfc0bc72e70",
+      "version": "f2252cb607da648441e8645e42b43d8d",
       "pluginOptions": {
         "plugins": []
       },
@@ -1030,38 +1008,38 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "9a0f45c2c5d28be7fa17113e1c9d5f49",
+        "contentDigest": "df3b95d0f4e0c3241204e223dc440ccb",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Site": {
       "siteMetadata": {
-        "title": "gatsby-example-using-remark",
-        "author": "@gatsbyjs",
-        "description": "Blazing-fast React.js static site generator"
+        "title": "Oriol.Codes",
+        "subtitle": "Data Science and Coding",
+        "author": "Oriol Mirosa"
       },
       "port": "8000",
       "host": "localhost",
       "mapping": {
         "MarkdownRemark.frontmatter.author": "AuthorYaml"
       },
-      "buildTime": "2017-07-15T22:38:12.571Z",
+      "buildTime": "2017-07-15T22:48:47.529Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "3b4bc6cdc7c20568d2a40652ec55fb23",
+        "contentDigest": "58b8d1dd9595caf1661225b05f1ee15c",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
     },
-    "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/index.js absPath of file": {
-      "id": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/index.js absPath of file",
+    "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/tags.js absPath of file": {
+      "id": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/tags.js absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "523be2915414c29d1b6befd61c8c4c59",
+        "contentDigest": "c8e00b0eefc25d750d2783d00beb4726",
         "mediaType": "application/javascript",
         "type": "File",
         "owner": "gatsby-source-filesystem",
@@ -1070,20 +1048,20 @@
         }
       },
       "sourceInstanceName": "pages",
-      "absolutePath": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/index.js",
-      "relativePath": "index.js",
+      "absolutePath": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/tags.js",
+      "relativePath": "tags.js",
       "extension": "js",
-      "size": 1966,
-      "prettySize": "1.97 kB",
-      "modifiedTime": "2017-07-15T22:35:44.000Z",
-      "accessTime": "2017-07-15T22:35:44.000Z",
-      "changeTime": "2017-07-15T22:35:44.000Z",
+      "size": 1020,
+      "prettySize": "1.02 kB",
+      "modifiedTime": "2017-07-15T22:47:50.000Z",
+      "accessTime": "2017-07-15T22:47:59.000Z",
+      "changeTime": "2017-07-15T22:47:50.000Z",
       "birthTime": "2017-07-14T13:18:10.000Z",
       "root": "/",
       "dir": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages",
-      "base": "index.js",
+      "base": "tags.js",
       "ext": ".js",
-      "name": "index",
+      "name": "tags",
       "dev": 16777220,
       "mode": 33261,
       "nlink": 1,
@@ -1091,15 +1069,15 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 18652882,
+      "ino": 18652883,
       "blocks": 8,
-      "atimeMs": 1500158144000,
-      "mtimeMs": 1500158144000,
-      "ctimeMs": 1500158144000,
+      "atimeMs": 1500158879000,
+      "mtimeMs": 1500158870000,
+      "ctimeMs": 1500158870000,
       "birthtimeMs": 1500038290000,
-      "atime": "2017-07-15T22:35:44.000Z",
-      "mtime": "2017-07-15T22:35:44.000Z",
-      "ctime": "2017-07-15T22:35:44.000Z",
+      "atime": "2017-07-15T22:47:59.000Z",
+      "mtime": "2017-07-15T22:47:50.000Z",
+      "ctime": "2017-07-15T22:47:50.000Z",
       "birthtime": "2017-07-14T13:18:10.000Z",
       "fields": {
         "slug": "/undefined/"
@@ -1128,7 +1106,7 @@
       "size": 228,
       "prettySize": "228 B",
       "modifiedTime": "2017-07-14T13:18:10.000Z",
-      "accessTime": "2017-07-15T22:26:27.000Z",
+      "accessTime": "2017-07-15T22:47:59.000Z",
       "changeTime": "2017-07-15T22:13:14.000Z",
       "birthTime": "2017-07-14T13:18:10.000Z",
       "root": "/",
@@ -1145,11 +1123,11 @@
       "blksize": 4096,
       "ino": 18652878,
       "blocks": 8,
-      "atimeMs": 1500157587000,
+      "atimeMs": 1500158879000,
       "mtimeMs": 1500038290000,
       "ctimeMs": 1500156794000,
       "birthtimeMs": 1500038290000,
-      "atime": "2017-07-15T22:26:27.000Z",
+      "atime": "2017-07-15T22:47:59.000Z",
       "mtime": "2017-07-14T13:18:10.000Z",
       "ctime": "2017-07-15T22:13:14.000Z",
       "birthtime": "2017-07-14T13:18:10.000Z",
@@ -1157,12 +1135,12 @@
         "slug": "/undefined/"
       }
     },
-    "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/tags.js absPath of file": {
-      "id": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/tags.js absPath of file",
+    "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/index.js absPath of file": {
+      "id": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/index.js absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "c8e00b0eefc25d750d2783d00beb4726",
+        "contentDigest": "a900262841b0d39b0d149595994091be",
         "mediaType": "application/javascript",
         "type": "File",
         "owner": "gatsby-source-filesystem",
@@ -1171,20 +1149,20 @@
         }
       },
       "sourceInstanceName": "pages",
-      "absolutePath": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/tags.js",
-      "relativePath": "tags.js",
+      "absolutePath": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/index.js",
+      "relativePath": "index.js",
       "extension": "js",
-      "size": 1020,
-      "prettySize": "1.02 kB",
-      "modifiedTime": "2017-07-14T13:18:10.000Z",
-      "accessTime": "2017-07-15T22:26:27.000Z",
-      "changeTime": "2017-07-15T22:13:14.000Z",
+      "size": 1823,
+      "prettySize": "1.82 kB",
+      "modifiedTime": "2017-07-15T22:47:23.000Z",
+      "accessTime": "2017-07-15T22:47:59.000Z",
+      "changeTime": "2017-07-15T22:47:23.000Z",
       "birthTime": "2017-07-14T13:18:10.000Z",
       "root": "/",
       "dir": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages",
-      "base": "tags.js",
+      "base": "index.js",
       "ext": ".js",
-      "name": "tags",
+      "name": "index",
       "dev": 16777220,
       "mode": 33261,
       "nlink": 1,
@@ -1192,15 +1170,15 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 18652883,
+      "ino": 18652882,
       "blocks": 8,
-      "atimeMs": 1500157587000,
-      "mtimeMs": 1500038290000,
-      "ctimeMs": 1500156794000,
+      "atimeMs": 1500158879000,
+      "mtimeMs": 1500158843000,
+      "ctimeMs": 1500158843000,
       "birthtimeMs": 1500038290000,
-      "atime": "2017-07-15T22:26:27.000Z",
-      "mtime": "2017-07-14T13:18:10.000Z",
-      "ctime": "2017-07-15T22:13:14.000Z",
+      "atime": "2017-07-15T22:47:59.000Z",
+      "mtime": "2017-07-15T22:47:23.000Z",
+      "ctime": "2017-07-15T22:47:23.000Z",
       "birthtime": "2017-07-14T13:18:10.000Z",
       "fields": {
         "slug": "/undefined/"
@@ -1228,7 +1206,7 @@
       "size": 10135,
       "prettySize": "10.1 kB",
       "modifiedTime": "2017-07-14T13:18:10.000Z",
-      "accessTime": "2017-07-15T22:26:27.000Z",
+      "accessTime": "2017-07-15T22:47:59.000Z",
       "changeTime": "2017-07-15T22:13:14.000Z",
       "birthTime": "2017-07-14T13:18:10.000Z",
       "root": "/",
@@ -1245,118 +1223,16 @@
       "blksize": 4096,
       "ino": 18652861,
       "blocks": 24,
-      "atimeMs": 1500157587000,
+      "atimeMs": 1500158879000,
       "mtimeMs": 1500038290000,
       "ctimeMs": 1500156794000,
       "birthtimeMs": 1500038290000,
-      "atime": "2017-07-15T22:26:27.000Z",
+      "atime": "2017-07-15T22:47:59.000Z",
       "mtime": "2017-07-14T13:18:10.000Z",
       "ctime": "2017-07-15T22:13:14.000Z",
       "birthtime": "2017-07-14T13:18:10.000Z",
       "fields": {
         "slug": "/hello-world-kitchen-sink/"
-      }
-    },
-    "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/2017-01-02---responsive-images-and-iframes/index.md absPath of file": {
-      "id": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/2017-01-02---responsive-images-and-iframes/index.md absPath of file",
-      "children": [
-        "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/2017-01-02---responsive-images-and-iframes/index.md absPath of file >>> MarkdownRemark"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "d5a046eff5eca2634c2b81c0739958a2",
-        "mediaType": "text/x-markdown",
-        "type": "File",
-        "owner": "gatsby-source-filesystem",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/2017-01-02---responsive-images-and-iframes/index.md",
-      "relativePath": "2017-01-02---responsive-images-and-iframes/index.md",
-      "extension": "md",
-      "size": 2181,
-      "prettySize": "2.18 kB",
-      "modifiedTime": "2017-07-14T13:18:10.000Z",
-      "accessTime": "2017-07-15T22:26:27.000Z",
-      "changeTime": "2017-07-15T22:13:14.000Z",
-      "birthTime": "2017-07-14T13:18:10.000Z",
-      "root": "/",
-      "dir": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/2017-01-02---responsive-images-and-iframes",
-      "base": "index.md",
-      "ext": ".md",
-      "name": "index",
-      "dev": 16777220,
-      "mode": 33261,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 18652865,
-      "blocks": 8,
-      "atimeMs": 1500157587000,
-      "mtimeMs": 1500038290000,
-      "ctimeMs": 1500156794000,
-      "birthtimeMs": 1500038290000,
-      "atime": "2017-07-15T22:26:27.000Z",
-      "mtime": "2017-07-14T13:18:10.000Z",
-      "ctime": "2017-07-15T22:13:14.000Z",
-      "birthtime": "2017-07-14T13:18:10.000Z",
-      "fields": {
-        "slug": "/responsive-images-and-iframes/"
-      }
-    },
-    "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/2017-01-02---responsive-images-and-iframes/squiggly.svg absPath of file": {
-      "id": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/2017-01-02---responsive-images-and-iframes/squiggly.svg absPath of file",
-      "children": [
-        "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/2017-01-02---responsive-images-and-iframes/squiggly.svg absPath of file >> ImageSharp"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "418115f7cfa5605adab242f393a72e6d",
-        "mediaType": "image/svg+xml",
-        "type": "File",
-        "owner": "gatsby-source-filesystem",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/2017-01-02---responsive-images-and-iframes/squiggly.svg",
-      "relativePath": "2017-01-02---responsive-images-and-iframes/squiggly.svg",
-      "extension": "svg",
-      "size": 580,
-      "prettySize": "580 B",
-      "modifiedTime": "2017-07-14T13:18:10.000Z",
-      "accessTime": "2017-07-15T22:26:27.000Z",
-      "changeTime": "2017-07-15T22:13:14.000Z",
-      "birthTime": "2017-07-14T13:18:10.000Z",
-      "root": "/",
-      "dir": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/2017-01-02---responsive-images-and-iframes",
-      "base": "squiggly.svg",
-      "ext": ".svg",
-      "name": "squiggly",
-      "dev": 16777220,
-      "mode": 33261,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 18652870,
-      "blocks": 8,
-      "atimeMs": 1500157587000,
-      "mtimeMs": 1500038290000,
-      "ctimeMs": 1500156794000,
-      "birthtimeMs": 1500038290000,
-      "atime": "2017-07-15T22:26:27.000Z",
-      "mtime": "2017-07-14T13:18:10.000Z",
-      "ctime": "2017-07-15T22:13:14.000Z",
-      "birthtime": "2017-07-14T13:18:10.000Z",
-      "fields": {
-        "slug": "/responsive-images-and-iframes/"
       }
     },
     "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/2017-03-21---copy-linked-files-intercepting-local-links/index.md absPath of file": {
@@ -1381,7 +1257,7 @@
       "size": 1112,
       "prettySize": "1.11 kB",
       "modifiedTime": "2017-07-14T13:18:10.000Z",
-      "accessTime": "2017-07-15T22:26:27.000Z",
+      "accessTime": "2017-07-15T22:47:59.000Z",
       "changeTime": "2017-07-15T22:13:14.000Z",
       "birthTime": "2017-07-14T13:18:10.000Z",
       "root": "/",
@@ -1398,11 +1274,60 @@
       "blksize": 4096,
       "ino": 18652874,
       "blocks": 8,
-      "atimeMs": 1500157587000,
+      "atimeMs": 1500158879000,
       "mtimeMs": 1500038290000,
       "ctimeMs": 1500156794000,
       "birthtimeMs": 1500038290000,
-      "atime": "2017-07-15T22:26:27.000Z",
+      "atime": "2017-07-15T22:47:59.000Z",
+      "mtime": "2017-07-14T13:18:10.000Z",
+      "ctime": "2017-07-15T22:13:14.000Z",
+      "birthtime": "2017-07-14T13:18:10.000Z",
+      "fields": {
+        "slug": "/copy-linked-files-intercepting-local-links/"
+      }
+    },
+    "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/2017-03-21---copy-linked-files-intercepting-local-links/Creativecommons-informational-flyer_eng.pdf absPath of file": {
+      "id": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/2017-03-21---copy-linked-files-intercepting-local-links/Creativecommons-informational-flyer_eng.pdf absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "cdc888896b2190fade2812ca9eacde14",
+        "mediaType": "application/pdf",
+        "type": "File",
+        "owner": "gatsby-source-filesystem",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/2017-03-21---copy-linked-files-intercepting-local-links/Creativecommons-informational-flyer_eng.pdf",
+      "relativePath": "2017-03-21---copy-linked-files-intercepting-local-links/Creativecommons-informational-flyer_eng.pdf",
+      "extension": "pdf",
+      "size": 64895,
+      "prettySize": "64.9 kB",
+      "modifiedTime": "2017-07-14T13:18:10.000Z",
+      "accessTime": "2017-07-15T22:47:59.000Z",
+      "changeTime": "2017-07-15T22:13:14.000Z",
+      "birthTime": "2017-07-14T13:18:10.000Z",
+      "root": "/",
+      "dir": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/2017-03-21---copy-linked-files-intercepting-local-links",
+      "base": "Creativecommons-informational-flyer_eng.pdf",
+      "ext": ".pdf",
+      "name": "Creativecommons-informational-flyer_eng",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 18652872,
+      "blocks": 128,
+      "atimeMs": 1500158879000,
+      "mtimeMs": 1500038290000,
+      "ctimeMs": 1500156794000,
+      "birthtimeMs": 1500038290000,
+      "atime": "2017-07-15T22:47:59.000Z",
       "mtime": "2017-07-14T13:18:10.000Z",
       "ctime": "2017-07-15T22:13:14.000Z",
       "birthtime": "2017-07-14T13:18:10.000Z",
@@ -1432,7 +1357,7 @@
       "size": 4818,
       "prettySize": "4.82 kB",
       "modifiedTime": "2017-07-14T13:18:10.000Z",
-      "accessTime": "2017-07-15T22:26:27.000Z",
+      "accessTime": "2017-07-15T22:47:59.000Z",
       "changeTime": "2017-07-15T22:13:14.000Z",
       "birthTime": "2017-07-14T13:18:10.000Z",
       "root": "/",
@@ -1449,75 +1374,16 @@
       "blksize": 4096,
       "ino": 18652876,
       "blocks": 16,
-      "atimeMs": 1500157587000,
+      "atimeMs": 1500158879000,
       "mtimeMs": 1500038290000,
       "ctimeMs": 1500156794000,
       "birthtimeMs": 1500038290000,
-      "atime": "2017-07-15T22:26:27.000Z",
+      "atime": "2017-07-15T22:47:59.000Z",
       "mtime": "2017-07-14T13:18:10.000Z",
       "ctime": "2017-07-15T22:13:14.000Z",
       "birthtime": "2017-07-14T13:18:10.000Z",
       "fields": {
         "slug": "/code-and-syntax-highlighting/"
-      }
-    },
-    "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/2017-03-21---copy-linked-files-intercepting-local-links/Creativecommons-informational-flyer_eng.pdf absPath of file": {
-      "id": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/2017-03-21---copy-linked-files-intercepting-local-links/Creativecommons-informational-flyer_eng.pdf absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "cdc888896b2190fade2812ca9eacde14",
-        "mediaType": "application/pdf",
-        "type": "File",
-        "owner": "gatsby-source-filesystem",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/2017-03-21---copy-linked-files-intercepting-local-links/Creativecommons-informational-flyer_eng.pdf",
-      "relativePath": "2017-03-21---copy-linked-files-intercepting-local-links/Creativecommons-informational-flyer_eng.pdf",
-      "extension": "pdf",
-      "size": 64895,
-      "prettySize": "64.9 kB",
-      "modifiedTime": "2017-07-14T13:18:10.000Z",
-      "accessTime": "2017-07-15T22:26:27.000Z",
-      "changeTime": "2017-07-15T22:13:14.000Z",
-      "birthTime": "2017-07-14T13:18:10.000Z",
-      "root": "/",
-      "dir": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/2017-03-21---copy-linked-files-intercepting-local-links",
-      "base": "Creativecommons-informational-flyer_eng.pdf",
-      "ext": ".pdf",
-      "name": "Creativecommons-informational-flyer_eng",
-      "dev": 16777220,
-      "mode": 33261,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 18652872,
-      "blocks": 128,
-      "atimeMs": 1500157587000,
-      "mtimeMs": 1500038290000,
-      "ctimeMs": 1500156794000,
-      "birthtimeMs": 1500038290000,
-      "atime": "2017-07-15T22:26:27.000Z",
-      "mtime": "2017-07-14T13:18:10.000Z",
-      "ctime": "2017-07-15T22:13:14.000Z",
-      "birthtime": "2017-07-14T13:18:10.000Z",
-      "fields": {
-        "slug": "/copy-linked-files-intercepting-local-links/"
-      }
-    },
-    "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/2017-01-02---responsive-images-and-iframes/squiggly.svg absPath of file >> ImageSharp": {
-      "id": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/2017-01-02---responsive-images-and-iframes/squiggly.svg absPath of file >> ImageSharp",
-      "children": [],
-      "parent": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/2017-01-02---responsive-images-and-iframes/squiggly.svg absPath of file",
-      "internal": {
-        "contentDigest": "418115f7cfa5605adab242f393a72e6d",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
       }
     },
     "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/avatars/jay.jpg absPath of file": {
@@ -1542,7 +1408,7 @@
       "size": 60300,
       "prettySize": "60.3 kB",
       "modifiedTime": "2017-07-14T13:18:10.000Z",
-      "accessTime": "2017-07-15T22:26:27.000Z",
+      "accessTime": "2017-07-15T22:47:59.000Z",
       "changeTime": "2017-07-15T22:13:14.000Z",
       "birthTime": "2017-07-14T13:18:10.000Z",
       "root": "/",
@@ -1559,11 +1425,184 @@
       "blksize": 4096,
       "ino": 18652881,
       "blocks": 120,
-      "atimeMs": 1500157587000,
+      "atimeMs": 1500158879000,
       "mtimeMs": 1500038290000,
       "ctimeMs": 1500156794000,
       "birthtimeMs": 1500038290000,
-      "atime": "2017-07-15T22:26:27.000Z",
+      "atime": "2017-07-15T22:47:59.000Z",
+      "mtime": "2017-07-14T13:18:10.000Z",
+      "ctime": "2017-07-15T22:13:14.000Z",
+      "birthtime": "2017-07-14T13:18:10.000Z",
+      "fields": {
+        "slug": "/undefined/"
+      }
+    },
+    "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/2017-01-02---responsive-images-and-iframes/index.md absPath of file": {
+      "id": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/2017-01-02---responsive-images-and-iframes/index.md absPath of file",
+      "children": [
+        "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/2017-01-02---responsive-images-and-iframes/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "d5a046eff5eca2634c2b81c0739958a2",
+        "mediaType": "text/x-markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/2017-01-02---responsive-images-and-iframes/index.md",
+      "relativePath": "2017-01-02---responsive-images-and-iframes/index.md",
+      "extension": "md",
+      "size": 2181,
+      "prettySize": "2.18 kB",
+      "modifiedTime": "2017-07-14T13:18:10.000Z",
+      "accessTime": "2017-07-15T22:47:59.000Z",
+      "changeTime": "2017-07-15T22:13:14.000Z",
+      "birthTime": "2017-07-14T13:18:10.000Z",
+      "root": "/",
+      "dir": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/2017-01-02---responsive-images-and-iframes",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 18652865,
+      "blocks": 8,
+      "atimeMs": 1500158879000,
+      "mtimeMs": 1500038290000,
+      "ctimeMs": 1500156794000,
+      "birthtimeMs": 1500038290000,
+      "atime": "2017-07-15T22:47:59.000Z",
+      "mtime": "2017-07-14T13:18:10.000Z",
+      "ctime": "2017-07-15T22:13:14.000Z",
+      "birthtime": "2017-07-14T13:18:10.000Z",
+      "fields": {
+        "slug": "/responsive-images-and-iframes/"
+      }
+    },
+    "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/2017-01-02---responsive-images-and-iframes/squiggly.svg absPath of file": {
+      "id": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/2017-01-02---responsive-images-and-iframes/squiggly.svg absPath of file",
+      "children": [
+        "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/2017-01-02---responsive-images-and-iframes/squiggly.svg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "418115f7cfa5605adab242f393a72e6d",
+        "mediaType": "image/svg+xml",
+        "type": "File",
+        "owner": "gatsby-source-filesystem",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/2017-01-02---responsive-images-and-iframes/squiggly.svg",
+      "relativePath": "2017-01-02---responsive-images-and-iframes/squiggly.svg",
+      "extension": "svg",
+      "size": 580,
+      "prettySize": "580 B",
+      "modifiedTime": "2017-07-14T13:18:10.000Z",
+      "accessTime": "2017-07-15T22:47:59.000Z",
+      "changeTime": "2017-07-15T22:13:14.000Z",
+      "birthTime": "2017-07-14T13:18:10.000Z",
+      "root": "/",
+      "dir": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/2017-01-02---responsive-images-and-iframes",
+      "base": "squiggly.svg",
+      "ext": ".svg",
+      "name": "squiggly",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 18652870,
+      "blocks": 8,
+      "atimeMs": 1500158879000,
+      "mtimeMs": 1500038290000,
+      "ctimeMs": 1500156794000,
+      "birthtimeMs": 1500038290000,
+      "atime": "2017-07-15T22:47:59.000Z",
+      "mtime": "2017-07-14T13:18:10.000Z",
+      "ctime": "2017-07-15T22:13:14.000Z",
+      "birthtime": "2017-07-14T13:18:10.000Z",
+      "fields": {
+        "slug": "/responsive-images-and-iframes/"
+      }
+    },
+    "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/avatars/jay.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/avatars/jay.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/avatars/jay.jpg absPath of file",
+      "internal": {
+        "contentDigest": "584f423221bf98fe367b9e4de67b8e15",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/2017-01-02---responsive-images-and-iframes/squiggly.svg absPath of file >> ImageSharp": {
+      "id": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/2017-01-02---responsive-images-and-iframes/squiggly.svg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/2017-01-02---responsive-images-and-iframes/squiggly.svg absPath of file",
+      "internal": {
+        "contentDigest": "418115f7cfa5605adab242f393a72e6d",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/avatars/daisy.jpg absPath of file": {
+      "id": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/avatars/daisy.jpg absPath of file",
+      "children": [
+        "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/avatars/daisy.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "d286acdd98800790ea1bbdddbc982962",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/avatars/daisy.jpg",
+      "relativePath": "avatars/daisy.jpg",
+      "extension": "jpg",
+      "size": 87678,
+      "prettySize": "87.7 kB",
+      "modifiedTime": "2017-07-14T13:18:10.000Z",
+      "accessTime": "2017-07-15T22:47:59.000Z",
+      "changeTime": "2017-07-15T22:13:14.000Z",
+      "birthTime": "2017-07-14T13:18:10.000Z",
+      "root": "/",
+      "dir": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/avatars",
+      "base": "daisy.jpg",
+      "ext": ".jpg",
+      "name": "daisy",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 18652880,
+      "blocks": 176,
+      "atimeMs": 1500158879000,
+      "mtimeMs": 1500038290000,
+      "ctimeMs": 1500156794000,
+      "birthtimeMs": 1500038290000,
+      "atime": "2017-07-15T22:47:59.000Z",
       "mtime": "2017-07-14T13:18:10.000Z",
       "ctime": "2017-07-15T22:13:14.000Z",
       "birthtime": "2017-07-14T13:18:10.000Z",
@@ -1593,7 +1632,7 @@
       "size": 86486,
       "prettySize": "86.5 kB",
       "modifiedTime": "2017-07-14T13:18:10.000Z",
-      "accessTime": "2017-07-15T22:26:27.000Z",
+      "accessTime": "2017-07-15T22:47:59.000Z",
       "changeTime": "2017-07-15T22:13:14.000Z",
       "birthTime": "2017-07-14T13:18:10.000Z",
       "root": "/",
@@ -1610,11 +1649,11 @@
       "blksize": 4096,
       "ino": 18652864,
       "blocks": 176,
-      "atimeMs": 1500157587000,
+      "atimeMs": 1500158879000,
       "mtimeMs": 1500038290000,
       "ctimeMs": 1500156794000,
       "birthtimeMs": 1500038290000,
-      "atime": "2017-07-15T22:26:27.000Z",
+      "atime": "2017-07-15T22:47:59.000Z",
       "mtime": "2017-07-14T13:18:10.000Z",
       "ctime": "2017-07-15T22:13:14.000Z",
       "birthtime": "2017-07-14T13:18:10.000Z",
@@ -1622,12 +1661,12 @@
         "slug": "/responsive-images-and-iframes/"
       }
     },
-    "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/avatars/jay.jpg absPath of file >> ImageSharp": {
-      "id": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/avatars/jay.jpg absPath of file >> ImageSharp",
+    "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/avatars/daisy.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/avatars/daisy.jpg absPath of file >> ImageSharp",
       "children": [],
-      "parent": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/avatars/jay.jpg absPath of file",
+      "parent": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/avatars/daisy.jpg absPath of file",
       "internal": {
-        "contentDigest": "584f423221bf98fe367b9e4de67b8e15",
+        "contentDigest": "d286acdd98800790ea1bbdddbc982962",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -1638,67 +1677,6 @@
       "parent": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/2017-01-02---responsive-images-and-iframes/awesome_tiger.svg absPath of file",
       "internal": {
         "contentDigest": "0c516690791b1b0e0af94616b1b6883d",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/avatars/daisy.jpg absPath of file": {
-      "id": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/avatars/daisy.jpg absPath of file",
-      "children": [
-        "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/avatars/daisy.jpg absPath of file >> ImageSharp"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "d286acdd98800790ea1bbdddbc982962",
-        "mediaType": "image/jpeg",
-        "type": "File",
-        "owner": "gatsby-source-filesystem",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/avatars/daisy.jpg",
-      "relativePath": "avatars/daisy.jpg",
-      "extension": "jpg",
-      "size": 87678,
-      "prettySize": "87.7 kB",
-      "modifiedTime": "2017-07-14T13:18:10.000Z",
-      "accessTime": "2017-07-15T22:26:27.000Z",
-      "changeTime": "2017-07-15T22:13:14.000Z",
-      "birthTime": "2017-07-14T13:18:10.000Z",
-      "root": "/",
-      "dir": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/avatars",
-      "base": "daisy.jpg",
-      "ext": ".jpg",
-      "name": "daisy",
-      "dev": 16777220,
-      "mode": 33261,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 18652880,
-      "blocks": 176,
-      "atimeMs": 1500157587000,
-      "mtimeMs": 1500038290000,
-      "ctimeMs": 1500156794000,
-      "birthtimeMs": 1500038290000,
-      "atime": "2017-07-15T22:26:27.000Z",
-      "mtime": "2017-07-14T13:18:10.000Z",
-      "ctime": "2017-07-15T22:13:14.000Z",
-      "birthtime": "2017-07-14T13:18:10.000Z",
-      "fields": {
-        "slug": "/undefined/"
-      }
-    },
-    "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/avatars/daisy.jpg absPath of file >> ImageSharp": {
-      "id": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/avatars/daisy.jpg absPath of file >> ImageSharp",
-      "children": [],
-      "parent": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/avatars/daisy.jpg absPath of file",
-      "internal": {
-        "contentDigest": "d286acdd98800790ea1bbdddbc982962",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -1736,68 +1714,6 @@
           "/tags/remark/",
           "/tags/kitchen-sink/",
           "/tags/images/"
-        ]
-      }
-    },
-    "Daisy Buchanan": {
-      "id": "Daisy Buchanan",
-      "avatar": "avatars/daisy.jpg",
-      "bio": "is an attractive, if shallow and self-absorbed, young woman.",
-      "children": [],
-      "parent": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/author.yaml absPath of file",
-      "internal": {
-        "contentDigest": "2135287ec2c4706725186c0970f45fb0",
-        "type": "AuthorYaml",
-        "owner": "gatsby-transformer-yaml"
-      }
-    },
-    "Jay Gatsby": {
-      "id": "Jay Gatsby",
-      "avatar": "avatars/jay.jpg",
-      "bio": "is a mysterious millionaire with shady business connections.",
-      "children": [],
-      "parent": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/author.yaml absPath of file",
-      "internal": {
-        "contentDigest": "53f66bbda966651a9e6b2428313411b2",
-        "type": "AuthorYaml",
-        "owner": "gatsby-transformer-yaml"
-      }
-    },
-    "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/2017-01-02---responsive-images-and-iframes/index.md absPath of file >>> MarkdownRemark": {
-      "id": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/2017-01-02---responsive-images-and-iframes/index.md absPath of file >>> MarkdownRemark",
-      "children": [],
-      "parent": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/2017-01-02---responsive-images-and-iframes/index.md absPath of file",
-      "internal": {
-        "content": "---\ntitle: \"Responsive Images and iFrames\"\ndate: \"2017-01-02\"\ndraft: false\nauthor: Jay Gatsby\ntags:\n  - remark\n  - Images\n  - Videos\n  - iFrames\n---\n\n![](mikael-cho-214358.jpg)\n*Photo by [Mikael Cho](https://unsplash.com/@mikael) via [Unsplash](https://unsplash.com/@mikael?photo=_3TDkAttcaM)*\n\n[gatsby-remark-images][1] and [gatsby-remark-responsive-iframe][2]\nare here to take care of all your basic Markdown image and iframe issues.\n\n## Images\n\n[gatsby-remark-images][1] provides _out-of-the-box progressive image\nloading_ (as popularized by [Medium][3] and [Facebook][4]) for all local JPGs\nand PNGs in your Markdown documents.\n\nYou aren't just limited to markdown image tags either. You can either use markdown image tags:\n\n```\n![](image.png)\n```\n\nOr HTML image tags:\n\n```\n&lt;img src=\"image.png\"&gt;\n```\n\nLet's see some more photos by [Max Boettinger](https://unsplash.com/@maxboettinger) ([I](https://unsplash.com/photos/T7Lnl3PFISM), [II](https://unsplash.com/@maxboettinger?photo=SUFS6CPjB5Q)):\n\n![](max-boettinger-109436.jpg)\n\n![](max-boettinger-288448.jpg)\n\n### Okay, nice! But what about GIFs?\n\nSadly, [Sharp](https://github.com/lovell/sharp) – the library that does the\nactual image processing for us in [gatsby-plugin-sharp][5] – is not able to\nwrite out the GIF file format. We will just copy them over for you, instead,\nand also do that with SVGs.\n\nAn animated GIF of the Select2 Logo: ![Select2 Logo animation](select2-logo.gif)\n\nAn inline example ![example](squiggly.svg) SVG. Tremendous!\n\nAnd here's an awesome SVG tiger:\n\n![awesome tiger](awesome_tiger.svg)\n\n## iFrames and video embeds\n\nLet's add a YouTube video to show off responsive iFrames real quick:\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/hbjR5N6IhDU\" frameborder=\"0\" allowfullscreen></iframe>\n\n[1]: https://www.gatsbyjs.org/docs/packages/gatsby-remark-images/\n[2]: https://www.gatsbyjs.org/docs/packages/gatsby-remark-responsive-iframe/\n[3]: https://jmperezperez.com/medium-image-progressive-loading-placeholder/\n[4]: https://code.facebook.com/posts/991252547593574/the-technology-behind-preview-photos/\n[5]: https://www.gatsbyjs.org/docs/packages/gatsby-plugin-sharp/\n",
-        "contentDigest": "1293706d07eed2cc53596fe5487c0271",
-        "type": "MarkdownRemark",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin",
-          "tagSlugs": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "Responsive Images and iFrames",
-        "date": "2017-01-02",
-        "draft": false,
-        "author": "Jay Gatsby",
-        "tags": [
-          "remark",
-          "Images",
-          "Videos",
-          "iFrames"
-        ],
-        "parent": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/2017-01-02---responsive-images-and-iframes/index.md absPath of file"
-      },
-      "fileAbsolutePath": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/2017-01-02---responsive-images-and-iframes/index.md",
-      "fields": {
-        "slug": "/responsive-images-and-iframes/",
-        "tagSlugs": [
-          "/tags/remark/",
-          "/tags/images/",
-          "/tags/videos/",
-          "/tags/i-frames/"
         ]
       }
     },
@@ -1871,6 +1787,68 @@
         ]
       }
     },
+    "Daisy Buchanan": {
+      "id": "Daisy Buchanan",
+      "avatar": "avatars/daisy.jpg",
+      "bio": "is an attractive, if shallow and self-absorbed, young woman.",
+      "children": [],
+      "parent": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/author.yaml absPath of file",
+      "internal": {
+        "contentDigest": "2135287ec2c4706725186c0970f45fb0",
+        "type": "AuthorYaml",
+        "owner": "gatsby-transformer-yaml"
+      }
+    },
+    "Jay Gatsby": {
+      "id": "Jay Gatsby",
+      "avatar": "avatars/jay.jpg",
+      "bio": "is a mysterious millionaire with shady business connections.",
+      "children": [],
+      "parent": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/author.yaml absPath of file",
+      "internal": {
+        "contentDigest": "53f66bbda966651a9e6b2428313411b2",
+        "type": "AuthorYaml",
+        "owner": "gatsby-transformer-yaml"
+      }
+    },
+    "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/2017-01-02---responsive-images-and-iframes/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/2017-01-02---responsive-images-and-iframes/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/2017-01-02---responsive-images-and-iframes/index.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: \"Responsive Images and iFrames\"\ndate: \"2017-01-02\"\ndraft: false\nauthor: Jay Gatsby\ntags:\n  - remark\n  - Images\n  - Videos\n  - iFrames\n---\n\n![](mikael-cho-214358.jpg)\n*Photo by [Mikael Cho](https://unsplash.com/@mikael) via [Unsplash](https://unsplash.com/@mikael?photo=_3TDkAttcaM)*\n\n[gatsby-remark-images][1] and [gatsby-remark-responsive-iframe][2]\nare here to take care of all your basic Markdown image and iframe issues.\n\n## Images\n\n[gatsby-remark-images][1] provides _out-of-the-box progressive image\nloading_ (as popularized by [Medium][3] and [Facebook][4]) for all local JPGs\nand PNGs in your Markdown documents.\n\nYou aren't just limited to markdown image tags either. You can either use markdown image tags:\n\n```\n![](image.png)\n```\n\nOr HTML image tags:\n\n```\n&lt;img src=\"image.png\"&gt;\n```\n\nLet's see some more photos by [Max Boettinger](https://unsplash.com/@maxboettinger) ([I](https://unsplash.com/photos/T7Lnl3PFISM), [II](https://unsplash.com/@maxboettinger?photo=SUFS6CPjB5Q)):\n\n![](max-boettinger-109436.jpg)\n\n![](max-boettinger-288448.jpg)\n\n### Okay, nice! But what about GIFs?\n\nSadly, [Sharp](https://github.com/lovell/sharp) – the library that does the\nactual image processing for us in [gatsby-plugin-sharp][5] – is not able to\nwrite out the GIF file format. We will just copy them over for you, instead,\nand also do that with SVGs.\n\nAn animated GIF of the Select2 Logo: ![Select2 Logo animation](select2-logo.gif)\n\nAn inline example ![example](squiggly.svg) SVG. Tremendous!\n\nAnd here's an awesome SVG tiger:\n\n![awesome tiger](awesome_tiger.svg)\n\n## iFrames and video embeds\n\nLet's add a YouTube video to show off responsive iFrames real quick:\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/hbjR5N6IhDU\" frameborder=\"0\" allowfullscreen></iframe>\n\n[1]: https://www.gatsbyjs.org/docs/packages/gatsby-remark-images/\n[2]: https://www.gatsbyjs.org/docs/packages/gatsby-remark-responsive-iframe/\n[3]: https://jmperezperez.com/medium-image-progressive-loading-placeholder/\n[4]: https://code.facebook.com/posts/991252547593574/the-technology-behind-preview-photos/\n[5]: https://www.gatsbyjs.org/docs/packages/gatsby-plugin-sharp/\n",
+        "contentDigest": "1293706d07eed2cc53596fe5487c0271",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin",
+          "tagSlugs": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Responsive Images and iFrames",
+        "date": "2017-01-02",
+        "draft": false,
+        "author": "Jay Gatsby",
+        "tags": [
+          "remark",
+          "Images",
+          "Videos",
+          "iFrames"
+        ],
+        "parent": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/2017-01-02---responsive-images-and-iframes/index.md absPath of file"
+      },
+      "fileAbsolutePath": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/2017-01-02---responsive-images-and-iframes/index.md",
+      "fields": {
+        "slug": "/responsive-images-and-iframes/",
+        "tagSlugs": [
+          "/tags/remark/",
+          "/tags/images/",
+          "/tags/videos/",
+          "/tags/i-frames/"
+        ]
+      }
+    },
     "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/2016-04-15---hello-world-kitchen-sink/joshua-earle-234740.jpg absPath of file": {
       "id": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/2016-04-15---hello-world-kitchen-sink/joshua-earle-234740.jpg absPath of file",
       "children": [
@@ -1893,7 +1871,7 @@
       "size": 1108165,
       "prettySize": "1.11 MB",
       "modifiedTime": "2017-07-14T13:18:10.000Z",
-      "accessTime": "2017-07-15T22:26:27.000Z",
+      "accessTime": "2017-07-15T22:47:59.000Z",
       "changeTime": "2017-07-15T22:13:14.000Z",
       "birthTime": "2017-07-14T13:18:10.000Z",
       "root": "/",
@@ -1910,11 +1888,11 @@
       "blksize": 4096,
       "ino": 18652862,
       "blocks": 2168,
-      "atimeMs": 1500157587000,
+      "atimeMs": 1500158879000,
       "mtimeMs": 1500038290000,
       "ctimeMs": 1500156794000,
       "birthtimeMs": 1500038290000,
-      "atime": "2017-07-15T22:26:27.000Z",
+      "atime": "2017-07-15T22:47:59.000Z",
       "mtime": "2017-07-14T13:18:10.000Z",
       "ctime": "2017-07-15T22:13:14.000Z",
       "birthtime": "2017-07-14T13:18:10.000Z",
@@ -1954,7 +1932,7 @@
       "size": 1499132,
       "prettySize": "1.5 MB",
       "modifiedTime": "2017-07-14T13:18:10.000Z",
-      "accessTime": "2017-07-15T22:26:27.000Z",
+      "accessTime": "2017-07-15T22:47:59.000Z",
       "changeTime": "2017-07-15T22:13:14.000Z",
       "birthTime": "2017-07-14T13:18:10.000Z",
       "root": "/",
@@ -1971,11 +1949,11 @@
       "blksize": 4096,
       "ino": 18652877,
       "blocks": 2928,
-      "atimeMs": 1500157587000,
+      "atimeMs": 1500158879000,
       "mtimeMs": 1500038290000,
       "ctimeMs": 1500156794000,
       "birthtimeMs": 1500038290000,
-      "atime": "2017-07-15T22:26:27.000Z",
+      "atime": "2017-07-15T22:47:59.000Z",
       "mtime": "2017-07-14T13:18:10.000Z",
       "ctime": "2017-07-15T22:13:14.000Z",
       "birthtime": "2017-07-14T13:18:10.000Z",
@@ -2013,7 +1991,7 @@
       "size": 2504647,
       "prettySize": "2.5 MB",
       "modifiedTime": "2017-07-14T13:18:10.000Z",
-      "accessTime": "2017-07-15T22:26:27.000Z",
+      "accessTime": "2017-07-15T22:47:59.000Z",
       "changeTime": "2017-07-15T22:13:14.000Z",
       "birthTime": "2017-07-14T13:18:10.000Z",
       "root": "/",
@@ -2030,11 +2008,11 @@
       "blksize": 4096,
       "ino": 18652869,
       "blocks": 4896,
-      "atimeMs": 1500157587000,
+      "atimeMs": 1500158879000,
       "mtimeMs": 1500038290000,
       "ctimeMs": 1500156794000,
       "birthtimeMs": 1500038290000,
-      "atime": "2017-07-15T22:26:27.000Z",
+      "atime": "2017-07-15T22:47:59.000Z",
       "mtime": "2017-07-14T13:18:10.000Z",
       "ctime": "2017-07-15T22:13:14.000Z",
       "birthtime": "2017-07-14T13:18:10.000Z",
@@ -2064,7 +2042,7 @@
       "size": 3439919,
       "prettySize": "3.44 MB",
       "modifiedTime": "2017-07-14T13:18:10.000Z",
-      "accessTime": "2017-07-15T22:26:28.000Z",
+      "accessTime": "2017-07-15T22:47:59.000Z",
       "changeTime": "2017-07-15T22:13:14.000Z",
       "birthTime": "2017-07-14T13:18:10.000Z",
       "root": "/",
@@ -2081,11 +2059,11 @@
       "blksize": 4096,
       "ino": 18652866,
       "blocks": 6720,
-      "atimeMs": 1500157588000,
+      "atimeMs": 1500158879000,
       "mtimeMs": 1500038290000,
       "ctimeMs": 1500156794000,
       "birthtimeMs": 1500038290000,
-      "atime": "2017-07-15T22:26:28.000Z",
+      "atime": "2017-07-15T22:47:59.000Z",
       "mtime": "2017-07-14T13:18:10.000Z",
       "ctime": "2017-07-15T22:13:14.000Z",
       "birthtime": "2017-07-14T13:18:10.000Z",
@@ -2125,7 +2103,7 @@
       "size": 4118281,
       "prettySize": "4.12 MB",
       "modifiedTime": "2017-07-14T13:18:10.000Z",
-      "accessTime": "2017-07-15T22:26:28.000Z",
+      "accessTime": "2017-07-15T22:47:59.000Z",
       "changeTime": "2017-07-15T22:13:14.000Z",
       "birthTime": "2017-07-14T13:18:10.000Z",
       "root": "/",
@@ -2142,11 +2120,11 @@
       "blksize": 4096,
       "ino": 18652867,
       "blocks": 8048,
-      "atimeMs": 1500157588000,
+      "atimeMs": 1500158879000,
       "mtimeMs": 1500038290000,
       "ctimeMs": 1500156794000,
       "birthtimeMs": 1500038290000,
-      "atime": "2017-07-15T22:26:28.000Z",
+      "atime": "2017-07-15T22:47:59.000Z",
       "mtime": "2017-07-14T13:18:10.000Z",
       "ctime": "2017-07-15T22:13:14.000Z",
       "birthtime": "2017-07-14T13:18:10.000Z",
@@ -2186,7 +2164,7 @@
       "size": 4400317,
       "prettySize": "4.4 MB",
       "modifiedTime": "2017-07-14T13:18:10.000Z",
-      "accessTime": "2017-07-15T22:26:28.000Z",
+      "accessTime": "2017-07-15T22:47:59.000Z",
       "changeTime": "2017-07-15T22:13:14.000Z",
       "birthTime": "2017-07-14T13:18:10.000Z",
       "root": "/",
@@ -2203,11 +2181,11 @@
       "blksize": 4096,
       "ino": 18652868,
       "blocks": 8600,
-      "atimeMs": 1500157588000,
+      "atimeMs": 1500158879000,
       "mtimeMs": 1500038290000,
       "ctimeMs": 1500156794000,
       "birthtimeMs": 1500038290000,
-      "atime": "2017-07-15T22:26:28.000Z",
+      "atime": "2017-07-15T22:47:59.000Z",
       "mtime": "2017-07-14T13:18:10.000Z",
       "ctime": "2017-07-15T22:13:14.000Z",
       "birthtime": "2017-07-14T13:18:10.000Z",
@@ -2247,7 +2225,7 @@
       "size": 7493438,
       "prettySize": "7.49 MB",
       "modifiedTime": "2017-07-14T13:18:10.000Z",
-      "accessTime": "2017-07-15T22:26:28.000Z",
+      "accessTime": "2017-07-15T22:47:59.000Z",
       "changeTime": "2017-07-15T22:13:14.000Z",
       "birthTime": "2017-07-14T13:18:10.000Z",
       "root": "/",
@@ -2264,11 +2242,11 @@
       "blksize": 4096,
       "ino": 18652873,
       "blocks": 14640,
-      "atimeMs": 1500157588000,
+      "atimeMs": 1500158879000,
       "mtimeMs": 1500038290000,
       "ctimeMs": 1500156794000,
       "birthtimeMs": 1500038290000,
-      "atime": "2017-07-15T22:26:28.000Z",
+      "atime": "2017-07-15T22:47:59.000Z",
       "mtime": "2017-07-14T13:18:10.000Z",
       "ctime": "2017-07-15T22:13:14.000Z",
       "birthtime": "2017-07-14T13:18:10.000Z",
@@ -2302,25 +2280,6 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "3ae120855bbc74c3c97674156b45addf",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /responsive-images-and-iframes/": {
-      "path": "/responsive-images-and-iframes/",
-      "component": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/templates/template-blog-post.js",
-      "context": {
-        "slug": "/responsive-images-and-iframes/"
-      },
-      "componentChunkName": "page-component---src-templates-template-blog-post-js",
-      "jsonName": "responsive-images-and-iframes.json",
-      "internalComponentName": "ComponentResponsiveImagesAndIframes",
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "id": "SitePage /responsive-images-and-iframes/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "a0e2d4ed2b1b69316bb0a416f5ceeae1",
         "owner": "internal-data-bridge"
       }
     },
@@ -2359,6 +2318,25 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "4386f24e96fb45d0b4b245f2f88658eb",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /responsive-images-and-iframes/": {
+      "path": "/responsive-images-and-iframes/",
+      "component": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/templates/template-blog-post.js",
+      "context": {
+        "slug": "/responsive-images-and-iframes/"
+      },
+      "componentChunkName": "page-component---src-templates-template-blog-post-js",
+      "jsonName": "responsive-images-and-iframes.json",
+      "internalComponentName": "ComponentResponsiveImagesAndIframes",
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "id": "SitePage /responsive-images-and-iframes/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "a0e2d4ed2b1b69316bb0a416f5ceeae1",
         "owner": "internal-data-bridge"
       }
     },
@@ -2419,44 +2397,6 @@
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /tags/videos/": {
-      "path": "/tags/videos/",
-      "component": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/templates/template-tag-page.js",
-      "context": {
-        "tag": "Videos"
-      },
-      "componentChunkName": "page-component---src-templates-template-tag-page-js",
-      "jsonName": "tags-videos.json",
-      "internalComponentName": "ComponentTagsVideos",
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "id": "SitePage /tags/videos/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "9b930b78fa0fa06664485a67920ebc4d",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /tags/i-frames/": {
-      "path": "/tags/i-frames/",
-      "component": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/templates/template-tag-page.js",
-      "context": {
-        "tag": "iFrames"
-      },
-      "componentChunkName": "page-component---src-templates-template-tag-page-js",
-      "jsonName": "tags-i-frames.json",
-      "internalComponentName": "ComponentTagsIFrames",
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "id": "SitePage /tags/i-frames/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "c46769bc1cb52f30fd7988dcabddd76a",
-        "owner": "internal-data-bridge"
-      }
-    },
     "SitePage /tags/linked-files/": {
       "path": "/tags/linked-files/",
       "component": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/templates/template-tag-page.js",
@@ -2514,6 +2454,44 @@
         "owner": "internal-data-bridge"
       }
     },
+    "SitePage /tags/videos/": {
+      "path": "/tags/videos/",
+      "component": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/templates/template-tag-page.js",
+      "context": {
+        "tag": "Videos"
+      },
+      "componentChunkName": "page-component---src-templates-template-tag-page-js",
+      "jsonName": "tags-videos.json",
+      "internalComponentName": "ComponentTagsVideos",
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "id": "SitePage /tags/videos/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "9b930b78fa0fa06664485a67920ebc4d",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tags/i-frames/": {
+      "path": "/tags/i-frames/",
+      "component": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/templates/template-tag-page.js",
+      "context": {
+        "tag": "iFrames"
+      },
+      "componentChunkName": "page-component---src-templates-template-tag-page-js",
+      "jsonName": "tags-i-frames.json",
+      "internalComponentName": "ComponentTagsIFrames",
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "id": "SitePage /tags/i-frames/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c46769bc1cb52f30fd7988dcabddd76a",
+        "owner": "internal-data-bridge"
+      }
+    },
     "SitePage /": {
       "path": "/",
       "component": "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/index.js",
@@ -2551,7 +2529,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "fe6e45cfbd7496ba9dba21e468f623dc"
+    "PLUGINS_HASH": "eefe151147ecc3d712db606b59bb3890"
   },
   "pageDataDependencies": {
     "nodes": {
@@ -2568,9 +2546,6 @@
       ],
       "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/avatars/jay.jpg absPath of file >> ImageSharp": [
         "/hello-world-kitchen-sink/",
-        "/responsive-images-and-iframes/"
-      ],
-      "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/2017-01-02---responsive-images-and-iframes/index.md absPath of file >>> MarkdownRemark": [
         "/responsive-images-and-iframes/"
       ],
       "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/2017-03-21---copy-linked-files-intercepting-local-links/index.md absPath of file >>> MarkdownRemark": [
@@ -2591,6 +2566,9 @@
       "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/2017-04-04---code-and-syntax-highlighting/index.md absPath of file >>> MarkdownRemark": [
         "/code-and-syntax-highlighting/"
       ],
+      "/Users/oriol/Documents/Programming/Websites/gatsby1/oriolcodes/src/pages/2017-01-02---responsive-images-and-iframes/index.md absPath of file >>> MarkdownRemark": [
+        "/responsive-images-and-iframes/"
+      ],
       "Site": [
         "/",
         "/tags/"
@@ -2604,11 +2582,11 @@
         "/tags/remark/",
         "/tags/kitchen-sink/",
         "/tags/images/",
-        "/tags/videos/",
-        "/tags/i-frames/",
         "/tags/linked-files/",
         "/tags/local-links/",
         "/tags/code-highlighting/",
+        "/tags/videos/",
+        "/tags/i-frames/",
         "/",
         "/tags/"
       ]

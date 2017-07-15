@@ -13,7 +13,7 @@ class DefaultLayout extends React.Component {
             to="/"
           >
             <h1>
-              gatsby-example-using-remark
+              Oriol.Codes
             </h1>
           </Link>
         </div>

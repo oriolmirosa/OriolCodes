@@ -10,17 +10,17 @@
                 },
                 {
                     "node": {
-                        "path": "/responsive-images-and-iframes/"
-                    }
-                },
-                {
-                    "node": {
                         "path": "/copy-linked-files-intercepting-local-links/"
                     }
                 },
                 {
                     "node": {
                         "path": "/code-and-syntax-highlighting/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/responsive-images-and-iframes/"
                     }
                 },
                 {
@@ -40,16 +40,6 @@
                 },
                 {
                     "node": {
-                        "path": "/tags/videos/"
-                    }
-                },
-                {
-                    "node": {
-                        "path": "/tags/i-frames/"
-                    }
-                },
-                {
-                    "node": {
                         "path": "/tags/linked-files/"
                     }
                 },
@@ -61,6 +51,16 @@
                 {
                     "node": {
                         "path": "/tags/code-highlighting/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tags/videos/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tags/i-frames/"
                     }
                 },
                 {

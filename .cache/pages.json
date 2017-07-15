@@ -11,11 +11,6 @@
     },
     {
         "componentChunkName": "page-component---src-templates-template-blog-post-js",
-        "jsonName": "responsive-images-and-iframes.json",
-        "path": "/responsive-images-and-iframes/"
-    },
-    {
-        "componentChunkName": "page-component---src-templates-template-blog-post-js",
         "jsonName": "copy-linked-files-intercepting-local-links.json",
         "path": "/copy-linked-files-intercepting-local-links/"
     },
@@ -23,6 +18,11 @@
         "componentChunkName": "page-component---src-templates-template-blog-post-js",
         "jsonName": "code-and-syntax-highlighting.json",
         "path": "/code-and-syntax-highlighting/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-template-blog-post-js",
+        "jsonName": "responsive-images-and-iframes.json",
+        "path": "/responsive-images-and-iframes/"
     },
     {
         "componentChunkName": "page-component---src-templates-template-tag-page-js",
@@ -41,16 +41,6 @@
     },
     {
         "componentChunkName": "page-component---src-templates-template-tag-page-js",
-        "jsonName": "tags-videos.json",
-        "path": "/tags/videos/"
-    },
-    {
-        "componentChunkName": "page-component---src-templates-template-tag-page-js",
-        "jsonName": "tags-i-frames.json",
-        "path": "/tags/i-frames/"
-    },
-    {
-        "componentChunkName": "page-component---src-templates-template-tag-page-js",
         "jsonName": "tags-linked-files.json",
         "path": "/tags/linked-files/"
     },
@@ -63,6 +53,16 @@
         "componentChunkName": "page-component---src-templates-template-tag-page-js",
         "jsonName": "tags-code-highlighting.json",
         "path": "/tags/code-highlighting/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-template-tag-page-js",
+        "jsonName": "tags-videos.json",
+        "path": "/tags/videos/"
+    },
+    {
+        "componentChunkName": "page-component---src-templates-template-tag-page-js",
+        "jsonName": "tags-i-frames.json",
+        "path": "/tags/i-frames/"
     },
     {
         "componentChunkName": "page-component---src-pages-index-js",
