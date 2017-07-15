@@ -1,0 +1,22 @@
+{
+    "data": {
+        "allMarkdownRemark": {
+            "totalCount": 1,
+            "edges": [
+                {
+                    "node": {
+                        "fields": {
+                            "slug": "/responsive-images-and-iframes/"
+                        },
+                        "frontmatter": {
+                            "title": "Responsive Images and iFrames"
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "pathContext": {
+        "tag": "iFrames"
+    }
+}

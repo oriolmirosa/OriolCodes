@@ -1,0 +1,80 @@
+{
+    "data": {
+        "allSitePage": {
+            "totalCount": 14,
+            "edges": [
+                {
+                    "node": {
+                        "path": "/hello-world-kitchen-sink/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/responsive-images-and-iframes/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/copy-linked-files-intercepting-local-links/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/code-and-syntax-highlighting/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tags/remark/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tags/kitchen-sink/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tags/images/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tags/videos/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tags/i-frames/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tags/linked-files/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tags/local-links/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tags/code-highlighting/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/tags/"
+                    }
+                }
+            ]
+        }
+    },
+    "pathContext": {}
+}
