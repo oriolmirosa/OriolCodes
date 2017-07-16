@@ -21,6 +21,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
               }
               frontmatter {
                 tags
+                layout
               }
             }
           }
@@ -72,10 +73,14 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
 // Add custom url pathname for blog posts.
 exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
   const { createNodeField } = boundActionCreators
-
   if (node.internal.type === `File`) {
     const parsedFilePath = path.parse(node.absolutePath)
-    const slug = `/${parsedFilePath.dir.split(`---`)[1]}/`
+    let slug
+    if (parsedFilePath.dir.indexOf(`---`) !== -1) {
+      slug = `/${parsedFilePath.dir.split(`---`)[1]}/`
+    } else {
+      slug = `/${parsedFilePath.dir.split(`/`).slice(-1)[0]}/`
+    }
     createNodeField({ node, name: `slug`, value: slug })
   } else if (
     node.internal.type === `MarkdownRemark` &&
