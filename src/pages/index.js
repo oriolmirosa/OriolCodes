@@ -1,6 +1,46 @@
 import React from "react"
 import Link from "gatsby-link"
 import presets from "../utils/presets"
+import styled from "styled-components"
+import Summary from "../components/Summary"
+
+const style = {
+  date: {
+    fontSize: 0.8 + 'em',
+    color: '#93cbf9',
+    fontFamily: 'Avenir, sans-serif'
+  }
+}
+
+const StyledLink = styled(Link)`
+  font-family: Merriweather;
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+
+  &:hover {
+    border-bottom: 1px solid black;
+    box-shadow: none;
+  }
+`
+
+const StyledLi = styled.li`
+  margin-bottom: 2em;
+
+  &:before {
+    content: none;
+  }
+`
+
+const StyledUl = styled.ul`
+  margin-left: 0;
+  padding-left: 0;
+
+  @media (max-width: 600px) {
+      margin-top: 0px;
+  }
+`
 
 class Index extends React.Component {
   render() {
@@ -10,32 +50,17 @@ class Index extends React.Component {
     return (
       <div>
         <div>
-          <h1>
-            This example demonstrates{` `}
-            <a href="https://www.gatsbyjs.org/docs/packages/gatsby-transformer-remark/">
-              gatsby-transformer-remark
-            </a>
-            {` `}
-            and its plugins. It uses{` `}
-            <a href="https://github.com/KyleAMathews/typography.js">
-              Typography.js
-            </a>
-            {` `}
-            and self-hosted fonts via the{` `}
-            <a href="https://github.com/KyleAMathews/typefaces">Typefaces</a>
-            {` `}
-            project.
-          </h1>
           <ul>
             {posts.map(post =>
-              <li key={post.node.fields.slug}>
-                <span>
+              <StyledLi key={post.node.fields.slug}>
+                <StyledLink to={post.node.fields.slug}>
+                {post.node.frontmatter.title}
+                </StyledLink>
+                <div style={style.date}>
                   {post.node.frontmatter.date}
-                </span>
-                <Link to={post.node.fields.slug}>
-                  {post.node.frontmatter.title}
-                </Link>
-              </li>
+                </div>
+                <Summary body={post.node.html} />
+              </StyledLi>
             )}
           </ul>
         </div>
@@ -69,6 +94,7 @@ export const pageQuery = graphql`
             title
             date(formatString: "MMMM DD, YYYY")
           }
+          html
         }
       }
     }
