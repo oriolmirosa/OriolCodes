@@ -21,7 +21,6 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
               }
               frontmatter {
                 tags
-                layout
               }
             }
           }

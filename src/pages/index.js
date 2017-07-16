@@ -49,9 +49,8 @@ class Index extends React.Component {
 
     return (
       <div>
-        <div>
           <ul>
-            {posts.map(post =>
+            {posts.map(post => (
               <StyledLi key={post.node.fields.slug}>
                 <StyledLink to={post.node.fields.slug}>
                 {post.node.frontmatter.title}
@@ -61,9 +60,8 @@ class Index extends React.Component {
                 </div>
                 <Summary body={post.node.html} />
               </StyledLi>
-            )}
+            ))}
           </ul>
-        </div>
       </div>
     )
   }
@@ -92,7 +90,7 @@ export const pageQuery = graphql`
           }
           frontmatter {
             title
-            date(formatString: "MMMM DD, YYYY")
+            date(formatString: "MM/DD/YYYY")
           }
           html
         }

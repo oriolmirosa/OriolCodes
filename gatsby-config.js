@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `Oriol.Codes`,
     subtitle: `Data Science and Coding`,
-    author: `Oriol Mirosa`
+    author: `Oriol Mirosa`,
+    disqusShortname: `oriolmirosa`
   },
   plugins: [
     {

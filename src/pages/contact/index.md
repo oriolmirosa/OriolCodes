@@ -1,8 +1,6 @@
 ---
 title: "Contact"
-date: ""
-layout: main
-path: "/contact/"
+date:
 tags:
 ---
 <style>

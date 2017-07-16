@@ -1,8 +1,6 @@
 ---
 title: "About"
-date: null
-layout: main
-path: "/about/"
+date:
 tags:
 ---
 ![Me!](./me.png) Hi! My name is Oriol Mirosa. Until recently, I was a professor of sociology and global studies at the University of Wisconsin-Milwaukee, where I taught a number of classes and I did research on the environment and on access to water for vulnerable groups in developing countries (you can find more details about my work and a list of my publications in my [sociology website](http://www.mirosa.org/)).
