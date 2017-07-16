@@ -82,6 +82,7 @@ export const pageQuery = graphql`
     }
     allMarkdownRemark(
       limit: 2000
+      filter: { frontmatter: { date: { regex: "/^[0-9]{4}-[0-9]{1,2}-[0-9]{1,2}$/" } } }
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {

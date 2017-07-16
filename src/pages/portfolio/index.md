@@ -1,6 +1,6 @@
 ---
 title: "Portfolio"
-date: "2017-04-04"
+date:
 layout: main
 path: "/portfolio/"
 tags:

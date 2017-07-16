@@ -1,6 +1,6 @@
 ---
 title: "Contact"
-date: "2017-04-05"
+date: ""
 layout: main
 path: "/contact/"
 tags:

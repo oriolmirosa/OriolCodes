@@ -1,6 +1,6 @@
 ---
 title: "About"
-date: "2017-04-06"
+date: null
 layout: main
 path: "/about/"
 tags:
