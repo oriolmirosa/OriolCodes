@@ -134,6 +134,13 @@ const myTheme = {
     color: '#93cbf9',
     fontFamily: 'Avenir, sans-serif'
   },
+  minRead: {
+    marginTop: 0 + 'px',
+    marginBottom: 5 +'px',
+    fontSize: 0.8 + 'em',
+    color: 'black',
+    fontFamily: 'Avenir, sans-serif'
+  },
   h2: {
     fontFamily: 'Merriweather',
     fontSize: 20 + 'px',
