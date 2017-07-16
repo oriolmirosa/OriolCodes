@@ -8,7 +8,7 @@ import Disqus from '../components/Disqus'
 import ReadNext from '../components/ReadNext'
 
 import '../css/main.css'
-import '../css/monokai-sublime.css'
+// import '../css/monokai-sublime.css'
 
 const TagLink = styled(Link)`
   background-color: #9b9b9b;
@@ -58,8 +58,10 @@ class BlogPostRoute extends React.Component {
       header = (
         <div>
           <h1>{post.frontmatter.title}</h1>
-          <p><span style={myTheme.date}>Posted on {post.frontmatter.date} </span><span style={myTheme.minRead}>&middot; {post.timeToRead} min read</span></p>
-          <p>{tagsSection}</p>
+          <p style={{marginTop: 0, marginBottom: 5 + 'px'}}>
+            <span style={myTheme.date}>Posted on {post.frontmatter.date} </span>
+            <span style={myTheme.minRead}>&middot; {post.timeToRead} min read</span></p>
+          <p style={{marginTop: 0}}>{tagsSection}</p>
         </div>
       )
 

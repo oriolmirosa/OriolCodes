@@ -9,7 +9,7 @@ import Footer from '../components/Footer'
 import get from "lodash/get"
 import Header, { Banner, Title, Subtitle, PercReadBackground, PercRead } from '../components/Header'
 
-require(`prismjs/themes/prism-solarizedlight.css`)
+require(`prismjs/themes/prism-okaidia.css`)
 
 const StyledContainer = styled(Container)`
   max-width: 713px;

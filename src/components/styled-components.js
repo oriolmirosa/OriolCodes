@@ -42,7 +42,7 @@ const myTheme = {
     marginBottom: 0,
   },
   ul: {
-    marginLeft: 10 + 'em'
+    marginLeft: 0 //10 + 'em'
   },
   'ul li': {
     color: 'black',
@@ -195,7 +195,7 @@ injectGlobal`
   }
 
   ul {
-    margin-left: 1em;
+    margin-left: 0;
     padding-left: 0;
   }
 
@@ -240,6 +240,17 @@ injectGlobal`
     margin-bottom: 0;
   }
 
+
+  pre[class*="language-"]:before {
+    display: block;
+    font-size: 0.8em;
+    font-family: PragmataPro, monospace;
+    text-indent: 20px;
+    content: attr(class)
+    color: #fff;
+    background-color: #93cbf9;
+  }
+
   pre {
     display: block;
     background: #333333;
@@ -259,7 +270,7 @@ injectGlobal`
   }
 
   code {
-    -moz-border-radius: 3px;
+    ${'' /* -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
     border-radius: 3px;
     white-space: pre;
@@ -271,7 +282,7 @@ injectGlobal`
     white-space: -hp-pre-wrap;
     word-wrap: break-word;
     background: #e5e5e5;
-    border: 1px solid #cccccc;
+    border: 1px solid #cccccc; */}
     display: inline;
     font-family: PragmataPro, monospace, serif;
     font-size: 0.8rem;

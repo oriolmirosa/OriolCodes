@@ -31,7 +31,12 @@ module.exports = {
               dashes: `oldschool`,
             },
           },
-          `gatsby-remark-prismjs`,
+          {
+            resolve: `gatsby-remark-prismjs`,
+            options: {
+              classPrefix: '',
+            },
+          },
           `gatsby-remark-autolink-headers`,
         ],
       },
