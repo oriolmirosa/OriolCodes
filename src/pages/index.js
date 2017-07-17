@@ -49,7 +49,7 @@ class Index extends React.Component {
 
     return (
       <div>
-          <ul>
+          <ul style={{color: 'black', listStyleType: 'none', marginBottom: 0, marginLeft: 0, paddingLeft: 0}}>
             {posts.map(post => (
               <StyledLi key={post.node.fields.slug}>
                 <StyledLink to={post.node.fields.slug}>

@@ -30,12 +30,12 @@ blockquote > :last-child {
   margin-bottom: 0;
 }
 
-ul {
+/*ul {
   margin-left: 0;
   padding-left: 0;
-}
+}*/
 
-ul li {
+/*ul li {
   color: black;
   list-style-type: none;
   margin-bottom: 0;
@@ -46,9 +46,9 @@ ul li:before {
   content: \2022;
   color: #93cbf9;
   padding-right: 0.5em;
-}
+}*/
 
-ul li ul {
+/*ul li ul {
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -74,7 +74,7 @@ ol {
 
 ol li {
   margin-bottom: 0;
-}
+}*/
 
 pre {
   padding-top: 0;

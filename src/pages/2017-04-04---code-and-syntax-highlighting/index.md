@@ -127,6 +127,11 @@ plugins: [
 
 Let's do something crazy and add a list with another code example:
 
+* This however showed weasel
+* Well uncritical so misled
+  * this is very interesting
+* Goodness much until that fluid owl
+
 * **A list item**
 
   …and a paragraph! In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since.

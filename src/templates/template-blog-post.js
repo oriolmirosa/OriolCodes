@@ -59,7 +59,7 @@ class BlogPostRoute extends React.Component {
         <div>
           <h1>{post.frontmatter.title}</h1>
           <p style={{marginTop: 0, marginBottom: 5 + 'px'}}>
-            <span style={myTheme.date}>Posted on {post.frontmatter.date} </span>
+            <span style={myTheme.minRead}>Posted on {post.frontmatter.date} </span>
             <span style={myTheme.minRead}>&middot; {post.timeToRead} min read</span></p>
           <p style={{marginTop: 0}}>{tagsSection}</p>
         </div>
