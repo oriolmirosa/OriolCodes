@@ -116,6 +116,8 @@ p code {
   background: #e5e5e5;
   border: 1px solid #cccccc;
   width: 100%;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 h1 {
