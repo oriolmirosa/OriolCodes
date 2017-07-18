@@ -2,29 +2,9 @@ import React from "react"
 import Link from "gatsby-link"
 import presets from "../utils/presets"
 import styled from 'styled-components'
-import { ThemeProvider } from 'styled-components'
-import myTheme from '../components/styled-components'
 import Disqus from '../components/Disqus'
 import ReadNext from '../components/ReadNext'
 import Tags from '../components/Tags'
-
-// import '../css/main.css'
-// import '../css/monokai-sublime.css'
-
-// const TagLink = styled(Link)`
-//   background-color: #9b9b9b;
-//   font-family: avenir;
-//   font-size: 0.9em;
-//   font-variant: small-caps;
-//   color: white;
-//   text-decoration: none;
-//   font-weight: 400;
-//   padding-right: 6px;
-//   padding-left: 7px;
-//   padding-top: 0px;
-//   border-radius: 2px;
-//   padding-bottom: 1px;
-// `
 
 const BlogDateParagraph = styled.p`
   margin-top: 0;
@@ -99,13 +79,11 @@ class BlogPostRoute extends React.Component {
     }
 
     return (
-      <ThemeProvider theme={myTheme}>
         <div>
           {header}
           <div dangerouslySetInnerHTML={{ __html: post.html }} className="post" />
           {footer}
         </div>
-      </ThemeProvider>
     )
   }
 }

@@ -1,6 +1,5 @@
 import React from "react"
 import Link from "gatsby-link"
-// import presets from "../utils/presets"
 import styled from "styled-components"
 import Summary from "../components/Summary"
 

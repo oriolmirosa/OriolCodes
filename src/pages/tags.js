@@ -38,9 +38,7 @@ class TagsPageRoute extends React.Component {
             <li key={tag.fieldValue}>
               <TagCountSpan>{tag.totalCount}</TagCountSpan>
               &nbsp;&nbsp;&nbsp;
-              <Tags
-                to={`/tags/${kebabCase(tag.fieldValue)}/`}
-              >
+              <Tags to={`/tags/${kebabCase(tag.fieldValue)}/`}>
                 {tag.fieldValue.toLowerCase()}
               </Tags>
 

@@ -1,7 +1,6 @@
 import React from 'react'
 import NavLink from './NavLink'
 import styled from 'styled-components'
-// import { prefixLink } from 'gatsby-helpers'
 
 const Navbox = styled.div`
 	position: fixed;
@@ -40,7 +39,7 @@ const Nav = (props) => {
 
 	return (
 		<Navbox size={props.size} rightPosition={props.rightPosition}>
-      <NavLink to='/' size={props.size} activeStyle={screen}>Blog</NavLink>
+      <NavLink to='/' exact size={props.size} activeStyle={screen}>Blog</NavLink>
       <NavLink to='/portfolio/' size={props.size} activeStyle={screen}>Portfolio</NavLink>
 			<NavLink to='/about/' size={props.size} activeStyle={screen}>About</NavLink>
       <NavLink to='/contact/' size={props.size} activeStyle={screen}>Contact</NavLink>

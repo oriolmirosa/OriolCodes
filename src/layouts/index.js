@@ -6,9 +6,7 @@ import styled from 'styled-components'
 import Filler from '../components/Filler'
 import Nav from '../components/Nav'
 import Footer from '../components/Footer'
-// import get from "lodash/get"
 import Header, { Banner, Title, Subtitle, PercReadBackground, PercRead } from '../components/Header'
-
 
 require(`prismjs/themes/prism-okaidia.css`)
 require(`../css/main.css`)
@@ -24,7 +22,6 @@ const StyledContainer = styled(Container)`
   padding: 46px 22px 100px 22px;
   position: relative;
   min-height: 100vh;
-  ${'' /* margin-bottom: 10vh; */}
   background-color: white;
   z-index: 0;
 
