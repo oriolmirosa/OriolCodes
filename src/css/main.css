@@ -7,6 +7,7 @@ body {
   font-size: 18px;
   line-height: 1.65;
   margin: 0;
+  width: 100%;
 }
 
 html {
@@ -64,6 +65,7 @@ pre {
   color: #DCDCDC;
   overflow-y: hidden;
   border-radius: 3px;
+  width: 100%;
 }
 
 pre:before {
@@ -88,11 +90,12 @@ pre code {
 
 code {
   margin-top: 20px;
-  margin-left: 20px;
+  padding-left: 20px;
   margin-bottom: 10px;
   display: inline;
   font-family: PragmataPro, monospace, serif;
   font-size: 0.8rem;
+  width: 100%;
   max-width: 100%;
   overflow: auto;
 }
@@ -112,6 +115,7 @@ p code {
   margin-left: 0;
   background: #e5e5e5;
   border: 1px solid #cccccc;
+  width: 100%;
 }
 
 h1 {

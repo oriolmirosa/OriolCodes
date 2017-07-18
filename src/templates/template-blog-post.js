@@ -21,6 +21,7 @@ const BlogDateSpan = styled.span`
 
 const TagsParagraph = styled.p`
   margin-top: 0;
+  width: 100%;
 `
 
 
@@ -55,7 +56,7 @@ class BlogPostRoute extends React.Component {
 
     if (post.frontmatter.title !== 'About' & post.frontmatter.title !== 'Portfolio' & post.frontmatter.title !== 'Contact') {
       header = (
-        <div>
+        <div style={{width: 100 + '%'}}>
           <h1>{post.frontmatter.title}</h1>
           <BlogDateParagraph>
             <BlogDateSpan>Posted on {post.frontmatter.date} </BlogDateSpan>

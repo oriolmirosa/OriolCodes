@@ -1,29 +1,71 @@
 import React from "react"
 import Link from "gatsby-link"
+import styled from 'styled-components'
+import Summary from '../components/Summary'
+import { TagsDiv } from '../components/Tags'
+
+const StyledLink = styled(Link)`
+  font-family: Merriweather;
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+
+  &:hover {
+    border-bottom: 1px solid black;
+    box-shadow: none;
+  }
+`
+
+const StyledLi = styled.li`
+  margin-bottom: 2em;
+
+  &:before {
+    content: none;
+  }
+`
+
+const StyledUl = styled.ul`
+  margin-left: 0;
+  padding-left: 0;
+  color: black;
+  list-style-type: none;
+  margin-bottom: 0;
+
+  @media (max-width: 600px) {
+      margin-top: 0px;
+  }
+`
+
+const H2Styled = styled.h2`
+  line-height: 2em;
+  vertical-align: middle;
+`
 
 class TagRoute extends React.Component {
   render() {
     const posts = this.props.data.allMarkdownRemark.edges
     const postLinks = posts.map(post =>
-      <li key={post.node.fields.slug}>
-        <Link to={post.node.fields.slug}>
+      <StyledLi key={post.node.fields.slug}>
+        <StyledLink to={post.node.fields.slug}>
           {post.node.frontmatter.title}
-        </Link>
-      </li>
+        </StyledLink>
+        <Summary body={post.node.html} />
+      </StyledLi>
     )
 
     return (
       <div>
-        <h1>
+        <H2Styled>
           {this.props.data.allMarkdownRemark.totalCount}
-          {` `}posts tagged with “{this.props.pathContext.tag}”
-        </h1>
-        <ul>
-          {postLinks}
-        </ul>
+          {` `}posts tagged with &nbsp; <TagsDiv>{this.props.pathContext.tag.toLowerCase()}</TagsDiv>
+        </H2Styled>
         <p>
           <Link to="/tags/">Browse all tags</Link>
         </p>
+        <StyledUl>
+          {postLinks}
+        </StyledUl>
       </div>
     )
   }
@@ -47,6 +89,7 @@ export const pageQuery = graphql`
           frontmatter {
             title
           }
+          html
         }
       }
     }

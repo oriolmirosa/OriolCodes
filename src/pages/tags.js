@@ -10,7 +10,7 @@ const TagsUl = styled.ul`
 `
 
 const TagCountSpan = styled.span`
-  background-color: #93cbf9;
+  background-color: black;
   font-family: avenir;
   font-size: 0.6em;
   font-variant: small-caps;
@@ -20,15 +20,23 @@ const TagCountSpan = styled.span`
   font-weight: 400;
   padding-right: 7px;
   padding-left: 7px;
-  padding-top: 5px;
-  border-radius: 2px;
-  padding-bottom: 3px;
+  padding-top: 3px;
+  border-radius: 50%;
+  padding-bottom: 2px;
 `
 
 class TagsPageRoute extends React.Component {
   render() {
     let allTags = this.props.data.allMarkdownRemark.group
     allTags = allTags.filter(x => x.fieldValue != 'null')
+      .sort(function(a, b) {
+        var nameA = a.fieldValue.toLowerCase(), nameB = b.fieldValue.toLowerCase()
+        if (nameA < nameB)
+            return -1
+        if (nameA > nameB)
+            return 1
+        return 0
+      })
 
     return (
       <div>
@@ -36,11 +44,12 @@ class TagsPageRoute extends React.Component {
         <TagsUl>
           {allTags.map(tag =>
             <li key={tag.fieldValue}>
-              <TagCountSpan>{tag.totalCount}</TagCountSpan>
-              &nbsp;&nbsp;&nbsp;
+
               <Tags to={`/tags/${kebabCase(tag.fieldValue)}/`}>
                 {tag.fieldValue.toLowerCase()}
               </Tags>
+              &nbsp;&nbsp;&nbsp;
+              <TagCountSpan>{tag.totalCount}</TagCountSpan>
 
             </li>
           )}
