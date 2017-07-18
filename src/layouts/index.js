@@ -6,10 +6,17 @@ import styled from 'styled-components'
 import Filler from '../components/Filler'
 import Nav from '../components/Nav'
 import Footer from '../components/Footer'
-import get from "lodash/get"
+// import get from "lodash/get"
 import Header, { Banner, Title, Subtitle, PercReadBackground, PercRead } from '../components/Header'
 
+
 require(`prismjs/themes/prism-okaidia.css`)
+require(`../css/main.css`)
+
+const BodyDiv = styled.div`
+  position: relative;
+  height: 100%;
+`
 
 const StyledContainer = styled(Container)`
   max-width: 713px;
@@ -91,7 +98,7 @@ class DefaultLayout extends React.Component {
     )
 
     return (
-      <div style={{position: 'relative', height: 100 + '%'}}>
+      <BodyDiv>
         <StyledContainer ref={(input) => { this.container = input; }}>
           {header}
     			<Nav size={this.state.size} rightPosition={rightPosition} windowWidth={this.state.windowWidth}/>
@@ -99,7 +106,7 @@ class DefaultLayout extends React.Component {
           {this.props.children()}
         </StyledContainer>
         <Footer />
-      </div>
+      </BodyDiv>
     )
   }
 }

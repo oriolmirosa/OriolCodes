@@ -1,16 +1,8 @@
 import React from "react"
 import Link from "gatsby-link"
-import presets from "../utils/presets"
+// import presets from "../utils/presets"
 import styled from "styled-components"
 import Summary from "../components/Summary"
-
-const style = {
-  date: {
-    fontSize: 0.8 + 'em',
-    color: '#93cbf9',
-    fontFamily: 'Avenir, sans-serif'
-  }
-}
 
 const StyledLink = styled(Link)`
   font-family: Merriweather;
@@ -36,10 +28,19 @@ const StyledLi = styled.li`
 const StyledUl = styled.ul`
   margin-left: 0;
   padding-left: 0;
+  color: black;
+  list-style-type: none;
+  margin-bottom: 0;
 
   @media (max-width: 600px) {
       margin-top: 0px;
   }
+`
+
+const DateDiv = styled.div`
+  font-size: 0.8em;
+  color: #93cbf9;
+  font-family: Avenir, sans-serif;
 `
 
 class Index extends React.Component {
@@ -49,19 +50,19 @@ class Index extends React.Component {
 
     return (
       <div>
-          <ul style={{color: 'black', listStyleType: 'none', marginBottom: 0, marginLeft: 0, paddingLeft: 0}}>
+          <StyledUl>
             {posts.map(post => (
               <StyledLi key={post.node.fields.slug}>
                 <StyledLink to={post.node.fields.slug}>
                 {post.node.frontmatter.title}
                 </StyledLink>
-                <div style={style.date}>
+                <DateDiv>
                   {post.node.frontmatter.date}
-                </div>
+                </DateDiv>
                 <Summary body={post.node.html} />
               </StyledLi>
             ))}
-          </ul>
+          </StyledUl>
       </div>
     )
   }

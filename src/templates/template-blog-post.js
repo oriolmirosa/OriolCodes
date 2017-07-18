@@ -6,24 +6,43 @@ import { ThemeProvider } from 'styled-components'
 import myTheme from '../components/styled-components'
 import Disqus from '../components/Disqus'
 import ReadNext from '../components/ReadNext'
+import Tags from '../components/Tags'
 
-import '../css/main.css'
+// import '../css/main.css'
 // import '../css/monokai-sublime.css'
 
-const TagLink = styled(Link)`
-  background-color: #9b9b9b;
-  font-family: avenir;
-  font-size: 0.9em;
-  font-variant: small-caps;
-  color: white;
-  text-decoration: none;
-  font-weight: 400;
-  padding-right: 6px;
-  padding-left: 7px;
-  padding-top: 0px;
-  border-radius: 2px;
-  padding-bottom: 1px;
+// const TagLink = styled(Link)`
+//   background-color: #9b9b9b;
+//   font-family: avenir;
+//   font-size: 0.9em;
+//   font-variant: small-caps;
+//   color: white;
+//   text-decoration: none;
+//   font-weight: 400;
+//   padding-right: 6px;
+//   padding-left: 7px;
+//   padding-top: 0px;
+//   border-radius: 2px;
+//   padding-bottom: 1px;
+// `
+
+const BlogDateParagraph = styled.p`
+  margin-top: 0;
+  margin-bottom: 5px;
 `
+
+const BlogDateSpan = styled.span`
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 0.8em;
+  color: black;
+  font-family: Avenir, sans-serif;
+`
+
+const TagsParagraph = styled.p`
+  margin-top: 0;
+`
+
 
 class BlogPostRoute extends React.Component {
   render() {
@@ -37,9 +56,9 @@ class BlogPostRoute extends React.Component {
         const divider = i < tagsArray.length - 1 && <span>{'    '}</span>
         return (
           <span key={tag}>
-            <TagLink to={tag}>
+            <Tags to={tag}>
               {post.frontmatter.tags[i].toLowerCase()}
-            </TagLink>
+            </Tags>
             {divider}
           </span>
         )
@@ -58,10 +77,11 @@ class BlogPostRoute extends React.Component {
       header = (
         <div>
           <h1>{post.frontmatter.title}</h1>
-          <p style={{marginTop: 0, marginBottom: 5 + 'px'}}>
-            <span style={myTheme.minRead}>Posted on {post.frontmatter.date} </span>
-            <span style={myTheme.minRead}>&middot; {post.timeToRead} min read</span></p>
-          <p style={{marginTop: 0}}>{tagsSection}</p>
+          <BlogDateParagraph>
+            <BlogDateSpan>Posted on {post.frontmatter.date} </BlogDateSpan>
+            <BlogDateSpan>&middot; {post.timeToRead} min read</BlogDateSpan>
+          </BlogDateParagraph>
+          <TagsParagraph>{tagsSection}</TagsParagraph>
         </div>
       )
 

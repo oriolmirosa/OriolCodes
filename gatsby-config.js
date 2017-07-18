@@ -43,5 +43,6 @@ module.exports = {
     },
     `gatsby-plugin-sharp`,
     `gatsby-plugin-catch-links`,
+    `gatsby-plugin-styled-components`
   ],
 }
