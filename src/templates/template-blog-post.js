@@ -55,6 +55,8 @@ class BlogPostRoute extends React.Component {
     let header = null
     let footer = null
 
+    let url = 'https://oriol.codes' + post.fields.slug
+
     if (post.frontmatter.title !== 'About' & post.frontmatter.title !== 'Portfolio' & post.frontmatter.title !== 'Contact') {
       header = (
         <div style={{width: 100 + '%'}}>
@@ -74,7 +76,7 @@ class BlogPostRoute extends React.Component {
             shortname={this.props.data.site.siteMetadata.disqusShortname}
             identifier={post.fields.slug}
             title={post.frontmatter.title}
-            url={post.fields.slug}
+            url={url}
           />
         </div>
       )
