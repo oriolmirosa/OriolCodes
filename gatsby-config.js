@@ -3,7 +3,7 @@ module.exports = {
     title: `Oriol.Codes`,
     subtitle: `Data Science and Coding`,
     author: `Oriol Mirosa`,
-    disqusShortname: `oriolmirosa`
+    disqusShortname: `oriolcodes`
   },
   plugins: [
     {
@@ -29,6 +29,7 @@ module.exports = {
             resolve: `gatsby-remark-smartypants`,
             options: {
               dashes: `oldschool`,
+              quotes: true
             },
           },
           {

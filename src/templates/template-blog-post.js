@@ -5,6 +5,7 @@ import styled from 'styled-components'
 import Disqus from '../components/Disqus'
 import ReadNext from '../components/ReadNext'
 import Tags from '../components/Tags'
+import ReactDisqusComments from 'react-disqus-comments'
 
 const BlogDateParagraph = styled.p`
   margin-top: 0;
@@ -69,12 +70,12 @@ class BlogPostRoute extends React.Component {
       footer = (
         <div>
           <hr />
-          {/* <Disqus
+          <ReactDisqusComments
             shortname={this.props.data.site.siteMetadata.disqusShortname}
-            title={post.frontmatter.title}
             identifier={post.fields.slug}
+            title={post.frontmatter.title}
             url={post.fields.slug}
-          /> */}
+          />
         </div>
       )
     }

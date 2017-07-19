@@ -28,6 +28,9 @@ const NavLink = styled(Link)`
     font-weight: bold;
     transition: none;
     border-bottom: 3px solid #D8D8D8;
+    &:hover {
+      text-decoration: none;
+    }
   }
 `;
 

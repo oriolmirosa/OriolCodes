@@ -45,6 +45,10 @@ export const Title = styled.a`
 	transition: ${props => props.scroll ? 'left 0.7s, font-size 0.7s' : 'none'};
 	z-index: 9999;
 
+  &:hover {
+    text-decoration: none;
+  }
+
   @media (max-width: 600px) {
     left: 50%;
     font-size: 1.2em;

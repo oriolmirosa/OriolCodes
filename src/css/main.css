@@ -24,6 +24,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 blockquote {
   color: grey;
   font-style: italic;

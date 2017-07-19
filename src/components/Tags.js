@@ -15,6 +15,12 @@ const Tags = styled(Link)`
   padding-top: 0px;
   border-radius: 2px;
   padding-bottom: 1px;
+  &:hover {
+    text-decoration: none;
+    box-shadow: 1px 1px 12px #93cbf9, -1px -1px 12px #93cbf9;
+    transition: all 0.3s;
+    }
+  }
 `
 
 export default Tags

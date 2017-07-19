@@ -3,4 +3,14 @@ title: "Portfolio"
 date:
 tags:
 ---
-Below you'll find links to write-ups of some of the data science projects I have been working on. All the code is available on my [GitHub page](https://github.com/oriolmirosa).
+<style>
+  .social-icon:hover {
+    box-shadow: 1px 1px 12px #93cbf9, -1px -1px 12px #93cbf9;
+    transition: all 0.3s;
+  }
+</style>
+
+You will find the code for all my data science and coding projects on my [GitHub page](https://github.com/oriolmirosa).
+
+<div style="text-align: center;"><a href="https://github.com/oriolmirosa" target="_blank" class="social-icon bpPKZb" style="display: inline-block; width: 30px; height: 30px; border-radius: 50%; position: relative; overflow: hidden; vertical-align: middle;"><div class="social-container" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"><svg class="social-svg" viewBox="0 0 64 64" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; fill-rule: evenodd;"><g class="social-svg-background" style="transition: fill 170ms ease-in-out; fill: transparent;"><circle cx="32" cy="32" r="31"></circle></g><g class="social-svg-icon" style="transition: fill 170ms ease-in-out; fill: transparent;"><path d="M32,16c-8.8,0-16,7.2-16,16c0,7.1,4.6,13.1,10.9,15.2 c0.8,0.1,1.1-0.3,1.1-0.8c0-0.4,0-1.4,0-2.7c-4.5,1-5.4-2.1-5.4-2.1c-0.7-1.8-1.8-2.3-1.8-2.3c-1.5-1,0.1-1,0.1-1 c1.6,0.1,2.5,1.6,2.5,1.6c1.4,2.4,3.7,1.7,4.7,1.3c0.1-1,0.6-1.7,1-2.1c-3.6-0.4-7.3-1.8-7.3-7.9c0-1.7,0.6-3.2,1.6-4.3 c-0.2-0.4-0.7-2,0.2-4.2c0,0,1.3-0.4,4.4,1.6c1.3-0.4,2.6-0.5,4-0.5c1.4,0,2.7,0.2,4,0.5c3.1-2.1,4.4-1.6,4.4-1.6 c0.9,2.2,0.3,3.8,0.2,4.2c1,1.1,1.6,2.5,1.6,4.3c0,6.1-3.7,7.5-7.3,7.9c0.6,0.5,1.1,1.5,1.1,3c0,2.1,0,3.9,0,4.4 c0,0.4,0.3,0.9,1.1,0.8C43.4,45.1,48,39.1,48,32C48,23.2,40.8,16,32,16z"></path></g><g class="social-svg-mask" style="transition: fill 170ms ease-in-out; fill: #24292E;"><path d="M0,0v64h64V0H0z M37.1,47.2c-0.8,0.2-1.1-0.3-1.1-0.8c0-0.5,0-2.3,0-4.4c0-1.5-0.5-2.5-1.1-3 c3.6-0.4,7.3-1.7,7.3-7.9c0-1.7-0.6-3.2-1.6-4.3c0.2-0.4,0.7-2-0.2-4.2c0,0-1.3-0.4-4.4,1.6c-1.3-0.4-2.6-0.5-4-0.5 c-1.4,0-2.7,0.2-4,0.5c-3.1-2.1-4.4-1.6-4.4-1.6c-0.9,2.2-0.3,3.8-0.2,4.2c-1,1.1-1.6,2.5-1.6,4.3c0,6.1,3.7,7.5,7.3,7.9 c-0.5,0.4-0.9,1.1-1,2.1c-0.9,0.4-3.2,1.1-4.7-1.3c0,0-0.8-1.5-2.5-1.6c0,0-1.6,0-0.1,1c0,0,1,0.5,1.8,2.3c0,0,0.9,3.1,5.4,2.1 c0,1.3,0,2.3,0,2.7c0,0.4-0.3,0.9-1.1,0.8C20.6,45.1,16,39.1,16,32c0-8.8,7.2-16,16-16c8.8,0,16,7.2,16,16 C48,39.1,43.4,45.1,37.1,47.2z"></path></g></svg></div></a></div>
+
