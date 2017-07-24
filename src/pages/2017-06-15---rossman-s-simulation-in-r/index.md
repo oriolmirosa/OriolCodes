@@ -20,11 +20,11 @@ Besides the simulation, I have also tried to reproduce the two graphs with which
 Now, for no real good reason beyond the challenge, I tried to see if I could get the second graph to look exactly as it is in the article using ``ggplot2``. Of course, it is possible to get a similar graph with much less code (the simplest version can be found in the code below, although I do not provide the graph here). Anyways, here you have the two graphs, followed by the code for the simulation and the graphs.
 
 <div style="height: 450px" align="center">
-     <img src="./3Dplot.png" alt="3D Plot" style="max-height: 100%" />
+     <img src="3Dplot.png" alt="3D Plot" style="max-height: 100%" />
 </div>
 
 <div style="height: 450px" align="center">
-     <img src="./2Dplot.png" alt="3D Plot" style="max-height: 100%" />
+     <img src="2Dplot.png" alt="3D Plot" style="max-height: 100%" />
 </div>
 
 ```R
