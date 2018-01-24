@@ -31,7 +31,7 @@ class HTML extends React.Component {
             name="viewport"
             content="width=device-width, initial-scale=1.0"
           />
-          <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700,700i" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600" rel="stylesheet" />
           <link href="https://fonts.googleapis.com/css?family=Cookie:400" rel="stylesheet" />
           {css}
         </head>

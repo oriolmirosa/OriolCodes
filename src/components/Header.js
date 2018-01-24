@@ -39,7 +39,7 @@ export const Title = styled.a`
 	left: ${props => props.size === 'large' ? '50%' : props.leftPosition + 'px'};
 	transform: translate(-50%, -50%);
 	color: white;
-	font-family: avenir;
+	font-family: Titillium Web;
 	font-weight: bold;
 	font-size: ${props => props.size === 'large' ? '3em' : '1.2em'};
 	transition: ${props => props.scroll ? 'left 0.7s, font-size 0.7s' : 'none'};
@@ -51,7 +51,7 @@ export const Title = styled.a`
 
   @media (max-width: 600px) {
     left: 50%;
-    font-size: 1.2em;
+    font-size: 1.5em;
     transform: translate(-50%, -50%);
   }
 `
@@ -62,14 +62,14 @@ export const Subtitle = styled.span`
 	left: ${props => props.size === 'large' ? '50%' : props.leftPosition + 'px'};
 	transform: translate(-50%, -50%);
 	color: white;
-	font-family: Cookie;
-	font-size: ${props => props.size === 'large' ? '1.4em' : '0.7em'};
+	font-family: Titillium Web;
+	font-size: ${props => props.size === 'large' ? '1em' : '0.5em'};
 	transition: ${props => props.scroll ? 'left 0.7s, font-size 0.7s' : 'none'};
 	z-index: 9999;
 
   @media (max-width: 600px) {
     left: 50%;
-    font-size: 0.7em;
+    font-size: 0.5em;
     transform: translate(-50%, -50%);
   }
 `

@@ -4,8 +4,8 @@ import styled from "styled-components"
 import Summary from "../components/Summary"
 
 const StyledLink = styled(Link)`
-  font-family: Merriweather;
-  font-size: 24px;
+  font-family: Titillium Web, sans-serif;
+  font-size: 28px;
   font-weight: bold;
   color: black;
   text-decoration: none;
@@ -45,7 +45,12 @@ const DateDiv = styled.div`
 
 class Index extends React.Component {
   render() {
-    const posts = this.props.data.allMarkdownRemark.edges
+    let posts = this.props.data.allMarkdownRemark.edges
+    // Horrible hack to filter the posts and leave only the blog entries
+    // The following line should be removed, the previous one changed to 'const',
+    // and the filter line below in the graphql part uncommented, when this is
+    // fixed in gatsby
+    posts = posts.filter(post => JSON.stringify(post).indexOf("null") == -1)
     const author = this.props.data.site.siteMetadata.author
 
     return (
@@ -81,7 +86,7 @@ export const pageQuery = graphql`
     }
     allMarkdownRemark(
       limit: 2000
-      filter: { frontmatter: { date: { regex: "/^[0-9]{4}-[0-9]{1,2}-[0-9]{1,2}$/" } } }
+      # filter: { frontmatter: { date: { regex: "/^[0-9]{4}-[0-9]{1,2}-[0-9]{1,2}$/" } } }
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {
