@@ -5,7 +5,7 @@ import Summary from '../components/Summary'
 import { TagsDiv } from '../components/Tags'
 
 const StyledLink = styled(Link)`
-  font-family: Merriweather;
+  font-family: Titillium Web;
   font-size: 24px;
   font-weight: bold;
   color: black;
