@@ -15,6 +15,6 @@ const StyledFooter = styled.div`
 	line-height: 60px;
 `
 
-const Footer = () => <StyledFooter>Copyright © Oriol Mirosa 2017</StyledFooter>
+const Footer = () => <StyledFooter>Copyright © Oriol Mirosa 2018</StyledFooter>
 
 export default Footer;
