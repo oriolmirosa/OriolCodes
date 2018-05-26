@@ -7,7 +7,7 @@ const StyledFooter = styled.div`
   bottom: 0;
   left: 0;
 	background-color: #333333;
-	font-family: avenir;
+	font-family: Lato, sans-serif;
 	font-size: 0.7em;
 	color: #fff;
 	text-align: center;

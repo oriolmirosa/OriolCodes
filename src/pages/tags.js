@@ -11,18 +11,18 @@ const TagsUl = styled.ul`
 
 const TagCountSpan = styled.span`
   background-color: black;
-  font-family: avenir;
+  font-family: Lato, sans-serif;
   font-size: 0.6em;
   font-variant: small-caps;
   color: white;
   text-align: center;
   text-decoration: none;
   font-weight: 400;
-  padding-right: 7px;
-  padding-left: 7px;
-  padding-top: 3px;
+  padding-right: 8px;
+  padding-left: 8px;
+  padding-top: 5px;
   border-radius: 50%;
-  padding-bottom: 2px;
+  padding-bottom: 5px;
 `
 
 class TagsPageRoute extends React.Component {

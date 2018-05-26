@@ -8,7 +8,7 @@ import Nav from '../components/Nav'
 import Footer from '../components/Footer'
 import Header, { Banner, Title, Subtitle, PercReadBackground, PercRead } from '../components/Header'
 
-require(`prismjs/themes/prism-okaidia.css`)
+require(`prismjs/themes/prism-oriol-codes.css`)
 require(`../css/main.css`)
 
 const BodyDiv = styled.div`
@@ -79,9 +79,9 @@ class DefaultLayout extends React.Component {
     const siteTitle = 'Oriol.Codes'
     const siteSubTitle = 'Data Science and Coding'
     const {location} = this.props
-    let textWidth = 713
-    let leftPosition = this.state.windowWidth / 2 - textWidth / 2 + 22 + 60
-    let rightPosition = this.state.windowWidth / 2 - textWidth / 2 + 22 + 180
+    let textWidth = 669
+    let leftPosition = this.state.windowWidth / 2 - textWidth / 2 + 0 + 45
+    let rightPosition = this.state.windowWidth / 2 - textWidth / 2 + 0 + 170
     let header
     header = (
       <Header>

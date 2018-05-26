@@ -17,7 +17,7 @@ const BlogDateSpan = styled.span`
   margin-bottom: 5px;
   font-size: 0.8em;
   color: black;
-  font-family: Avenir, sans-serif;
+  font-family: Lato, sans-serif;
 `
 
 const TagsParagraph = styled.p`

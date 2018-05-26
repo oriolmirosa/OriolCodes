@@ -40,7 +40,7 @@ const StyledUl = styled.ul`
 const DateDiv = styled.div`
   font-size: 0.8em;
   color: #93cbf9;
-  font-family: Avenir, sans-serif;
+  font-family: Lato, sans-serif;
 `
 
 class Index extends React.Component {

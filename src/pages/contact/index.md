@@ -6,7 +6,7 @@ tags:
 <style>
 
   * {
-    font-family: avenir, sans-serif;
+    font-family: Lato, sans-serif;
   }
 
   p {

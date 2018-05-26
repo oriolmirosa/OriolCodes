@@ -32,7 +32,7 @@ class HTML extends React.Component {
             content="width=device-width, initial-scale=1.0"
           />
           <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600" rel="stylesheet" />
-          <link href="https://fonts.googleapis.com/css?family=Cookie:400" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css?family=Lato:400,600" rel="stylesheet" />
           {css}
         </head>
         <body>
