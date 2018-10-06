@@ -27,7 +27,7 @@ Now, for no real good reason beyond the challenge, I tried to see if I could get
      <img src="./2Dplot.png" alt="3D Plot" style="max-height: 100%" />
 </div>
 
-```R
+```python
 # Set working directory
 
 setwd("~/Documents/Research/R/Diffusion1")

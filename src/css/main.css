@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: avenir, sans-serif;
+  font-family: Lato, sans-serif;
   font-size: 18px;
   line-height: 1.65;
   margin: 0;
@@ -77,17 +77,20 @@ pre:before {
   display: block;
   font-size: 0.8em;
   font-family: PragmataPro, monospace;
+  text-shadow: none;
   text-indent: 20px;
+  text-transform: capitalize;
   content: attr(class);
-  color: #fff;
+  color: #212121;
   background-color: #93cbf9;
+  padding-top: 2px;
 }
 
 pre code {
   background: none;
   border: none;
-  border-radius: 3px;
-  display: inline-block;
+  border-radius: 5px;
+  display: block;
   overflow: inherit;
   white-space: inherit;
   word-wrap: normal;
@@ -96,13 +99,17 @@ pre code {
 code {
   margin-top: 20px;
   padding-left: 20px;
-  margin-bottom: 10px;
-  display: inline;
+  padding-bottom: 20px;
+  margin-bottom: 0;
   font-family: PragmataPro, monospace, serif;
   font-size: 0.8rem;
   width: 100%;
   max-width: 100%;
   overflow: auto;
+}
+
+code.text {
+    padding-bottom: 0;
 }
 
 p code {
@@ -160,7 +167,7 @@ date {
   margin-bottom: 5px;
   font-size: 0.8em;
   color: #93cbf9;
-  font-family: Avenir, sans-serif;
+  font-family: Lato, sans-serif;
 }
 
 h2 {
